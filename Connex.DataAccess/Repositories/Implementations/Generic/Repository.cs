@@ -59,9 +59,9 @@ public abstract class Repository<T> : IRepository<T> where T : BaseEntity, new()
 
     public IQueryable<T> GetFilter(Expression<Func<T, bool>> expression, params string[] inclues)
     {
-        var query= _getQueryWithIncludes(inclues);
+        var query = _getQueryWithIncludes(inclues);
 
-        query=query.Where(expression);
+        query = query.Where(expression);
 
         return query;
     }
@@ -82,7 +82,7 @@ public abstract class Repository<T> : IRepository<T> where T : BaseEntity, new()
 
     public T Update(T entity)
     {
-        var entityEntry=_table.Update(entity);
+        var entityEntry = _table.Update(entity);
 
         return entityEntry.Entity;
     }
@@ -95,7 +95,7 @@ public abstract class Repository<T> : IRepository<T> where T : BaseEntity, new()
 
         foreach (var include in includes)
         {
-            query.Include(include);
+            query = query.Include(include);
         }
 
         return query;

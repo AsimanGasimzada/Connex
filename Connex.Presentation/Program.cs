@@ -1,11 +1,13 @@
 using Connex.DataAccess.ServiceRegistrations;
 using Connex.Business.ServiceRegistrations;
+using Connex.DataAccess.DataInitalizers;
+using Connex.Presentation.Extensions;
 
 namespace Connex.Presentation;
 
 public class Program
 {
-    public static void Main(string[] args)
+    public static async Task Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +16,10 @@ public class Program
         builder.Services.AddDataAccessServices(builder.Configuration);
         builder.Services.AddBusinessServices();
 
+
         var app = builder.Build();
+
+        await app.InitDatabaseAsync();
 
         if (!app.Environment.IsDevelopment())
         {
@@ -33,6 +38,8 @@ public class Program
             name: "default",
             pattern: "{controller=Home}/{action=Index}/{id?}");
 
-        app.Run();
+        await app.RunAsync();
     }
+
+    
 }
