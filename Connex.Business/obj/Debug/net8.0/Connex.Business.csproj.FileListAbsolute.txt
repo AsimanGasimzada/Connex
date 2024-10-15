@@ -1,0 +1,17 @@
+C:\Users\Asiman\source\repos\Connex\Connex.Business\bin\Debug\net8.0\Connex.Business.deps.json
+C:\Users\Asiman\source\repos\Connex\Connex.Business\bin\Debug\net8.0\Connex.Business.dll
+C:\Users\Asiman\source\repos\Connex\Connex.Business\bin\Debug\net8.0\Connex.Business.pdb
+C:\Users\Asiman\source\repos\Connex\Connex.Business\bin\Debug\net8.0\Connex.Core.dll
+C:\Users\Asiman\source\repos\Connex\Connex.Business\bin\Debug\net8.0\Connex.DataAccess.dll
+C:\Users\Asiman\source\repos\Connex\Connex.Business\bin\Debug\net8.0\Connex.DataAccess.pdb
+C:\Users\Asiman\source\repos\Connex\Connex.Business\bin\Debug\net8.0\Connex.Core.pdb
+C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.Business.csproj.AssemblyReference.cache
+C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.Business.AssemblyInfoInputs.cache
+C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.Business.AssemblyInfo.cs
+C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.Business.csproj.CoreCompileInputs.cache
+C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.B.D357B5D1.Up2Date
+C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.Business.dll
+C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\refint\Connex.Business.dll
+C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.Business.pdb
+C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\ref\Connex.Business.dll
