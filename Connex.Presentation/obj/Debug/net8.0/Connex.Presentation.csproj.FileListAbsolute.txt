@@ -146,3 +146,11 @@ C:\Users\Asiman\source\repos\Connex\Connex.Presentation\obj\Debug\net8.0\refint\
 C:\Users\Asiman\source\repos\Connex\Connex.Presentation\obj\Debug\net8.0\Connex.Presentation.pdb
 C:\Users\Asiman\source\repos\Connex\Connex.Presentation\obj\Debug\net8.0\Connex.Presentation.genruntimeconfig.cache
 C:\Users\Asiman\source\repos\Connex\Connex.Presentation\obj\Debug\net8.0\ref\Connex.Presentation.dll
+C:\Users\Asiman\source\repos\Connex\Connex.Presentation\obj\Debug\net8.0\Connex.Presentation.sourcelink.json
+C:\Users\Asiman\source\repos\Connex\Connex.Presentation\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Asiman\source\repos\Connex\Connex.Presentation\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Asiman\source\repos\Connex\Connex.Presentation\bin\Debug\net8.0\CloudinaryDotNet.dll
+C:\Users\Asiman\source\repos\Connex\Connex.Presentation\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Asiman\source\repos\Connex\Connex.Presentation\bin\Debug\net8.0\Microsoft.Extensions.Features.dll
+C:\Users\Asiman\source\repos\Connex\Connex.Presentation\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Asiman\source\repos\Connex\Connex.Presentation\obj\Debug\net8.0\Connex.Presentation.MvcApplicationPartsAssemblyInfo.cs

@@ -15,3 +15,4 @@ C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.Busi
 C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\refint\Connex.Business.dll
 C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.Business.pdb
 C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\ref\Connex.Business.dll
+C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.Business.sourcelink.json

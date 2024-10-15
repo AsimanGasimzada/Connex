@@ -9,3 +9,4 @@ C:\Users\Asiman\source\repos\Connex\Connex.Core\obj\Debug\net8.0\Connex.Core.dll
 C:\Users\Asiman\source\repos\Connex\Connex.Core\obj\Debug\net8.0\refint\Connex.Core.dll
 C:\Users\Asiman\source\repos\Connex\Connex.Core\obj\Debug\net8.0\Connex.Core.pdb
 C:\Users\Asiman\source\repos\Connex\Connex.Core\obj\Debug\net8.0\ref\Connex.Core.dll
+C:\Users\Asiman\source\repos\Connex\Connex.Core\obj\Debug\net8.0\Connex.Core.sourcelink.json

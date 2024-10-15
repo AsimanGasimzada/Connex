@@ -1,4 +1,5 @@
 using Connex.DataAccess.ServiceRegistrations;
+using Connex.Business.ServiceRegistrations;
 
 namespace Connex.Presentation;
 
@@ -11,6 +12,7 @@ public class Program
         builder.Services.AddControllersWithViews();
 
         builder.Services.AddDataAccessServices(builder.Configuration);
+        builder.Services.AddBusinessServices();
 
         var app = builder.Build();
 
