@@ -1,3 +1,5 @@
+using Connex.Business.Dtos;
+using Connex.Business.Services.Abstractions;
 using Connex.Presentation.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -7,10 +9,12 @@ namespace Connex.Presentation.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IAccountService _accountService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IAccountService accountService)
         {
             _logger = logger;
+            _accountService = accountService;
         }
 
         public IActionResult Index()
@@ -18,6 +22,12 @@ namespace Connex.Presentation.Controllers
             return View();
         }
 
+        public async Task<IActionResult> VerifyEmail(VerifyEmailDto dto)
+        {
+            await _accountService.VerifyEmailAsync(dto,ModelState);
+
+            return Json("OK");
+        }
         public IActionResult Privacy()
         {
             return View();

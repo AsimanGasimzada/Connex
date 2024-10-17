@@ -2,6 +2,9 @@ using Connex.DataAccess.ServiceRegistrations;
 using Connex.Business.ServiceRegistrations;
 using Connex.DataAccess.DataInitalizers;
 using Connex.Presentation.Extensions;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
+using Microsoft.AspNetCore.Mvc.Routing;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Connex.Presentation;
 
@@ -15,8 +18,7 @@ public class Program
 
         builder.Services.AddDataAccessServices(builder.Configuration);
         builder.Services.AddBusinessServices();
-
-
+        
         var app = builder.Build();
 
         await app.InitDatabaseAsync();
@@ -34,6 +36,12 @@ public class Program
 
         app.UseAuthorization();
 
+
+        app.MapControllerRoute(
+          name: "areas",
+          pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
+        );
+
         app.MapControllerRoute(
             name: "default",
             pattern: "{controller=Home}/{action=Index}/{id?}");
@@ -41,5 +49,5 @@ public class Program
         await app.RunAsync();
     }
 
-    
+
 }

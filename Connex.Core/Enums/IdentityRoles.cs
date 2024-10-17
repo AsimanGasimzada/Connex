@@ -3,5 +3,6 @@
 public enum IdentityRoles
 {
     Admin,
-    Moderator
+    Moderator,
+    User
 }

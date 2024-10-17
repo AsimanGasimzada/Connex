@@ -1,5 +1,5 @@
-﻿using Connex.Business.Services.Abstractions;
-using Connex.Business.Services.Implementations;
+﻿using Connex.Business.Services.Implementations;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
@@ -19,6 +19,12 @@ public static class BusinessServiceRegistration
     private static void _addServices(IServiceCollection services)
     {
         services.AddScoped<ISliderService, SliderService>();
+        services.AddScoped<ISettingService, SettingService>();
         services.AddScoped<ICloudinaryService,CloudinaryService>();
+        services.AddScoped<IEmailService,EmailService>();
+        services.AddScoped<IAccountService,AccountService>();
+
+        services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
+        services.AddHttpContextAccessor();
     }
 }

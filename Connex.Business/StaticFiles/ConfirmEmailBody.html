@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Təsdiq</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        .header {
+            background-color: #001f3f;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+            .header h1 {
+                color: white;
+                margin: 0;
+            }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+            .content h2 {
+                color: #007bff;
+            }
+
+            .content p {
+                font-size: 16px;
+                line-height: 1.6;
+            }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+
+            .footer a {
+                color: #007bff;
+                text-decoration: none;
+            }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="header">
+            <h1>Connex</h1>
+        </div>
+        <div class="content">
+            <h2>Emailinizi Təsdiq Edin</h2>
+            <p>Salam [REPLACE_USERNAME],</p>
+            <p>Emailinizi təsdiq etmək üçün aşağıdakı düyməni klikləyin:</p>
+            <a href="[REPLACE_URL]" class="button">Email Təsdiq Et</a>
+            <p>Əgər bu siz deyilsinizsə, bu emaili nəzərə almayın.</p>
+        </div>
+        <div class="footer">
+            <p>© 2024 Connex. Bütün hüquqlar qorunur.</p>
+            <p><a href="https://www.connex.az">connex.az</a></p>
+        </div>
+    </div>
+</body>
+</html>
