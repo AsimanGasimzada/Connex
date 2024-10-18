@@ -2,6 +2,7 @@
 using CloudinaryDotNet.Actions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
+using System.Net;
 
 namespace Connex.Business.Services.Implementations;
 
@@ -15,16 +16,17 @@ public class CloudinaryService : ICloudinaryService
     {
         _configuration = configuration;
         _optionsDto = _configuration.GetSection("CloudinarySettings").Get<CloudinaryOptionsDto>() ?? new();
+
         var myAccount = new Account { ApiKey = _optionsDto.APIKey, ApiSecret = _optionsDto.APISecret, Cloud = _optionsDto.CloudName };
 
-        Cloudinary _cloudinary = new Cloudinary(myAccount);
+        _cloudinary = new Cloudinary(myAccount);
         _cloudinary.Api.Secure = true;
     }
 
     public async Task<string> FileCreateAsync(IFormFile file)
     {
         string fileName = string.Concat(Guid.NewGuid(), file.FileName.Substring(file.FileName.LastIndexOf('.')));
-   
+
         var uploadResult = new ImageUploadResult();
         if (file.Length > 0)
         {
@@ -32,6 +34,7 @@ public class CloudinaryService : ICloudinaryService
             var uploadParams = new ImageUploadParams
             {
                 File = new FileDescription(fileName, stream),
+                Folder = "connex.az"
             };
             uploadResult = await _cloudinary.UploadAsync(uploadParams);
         }
@@ -42,11 +45,25 @@ public class CloudinaryService : ICloudinaryService
 
     public async Task<bool> FileDeleteAsync(string filePath)
     {
+        try
+        {
+            string publicIdWithExtension = filePath.Substring(filePath.LastIndexOf("connex.az"));
+            string publicId = publicIdWithExtension.Substring(0,publicIdWithExtension.LastIndexOf('.'));
 
-        var deletionParams = new DeletionParams(filePath);
+            var deleteParams = new DelResParams()
+            {
+                PublicIds = new List<string> { publicId },
+                Type = "upload",
+                ResourceType = ResourceType.Image
+            };
+            var result = await _cloudinary.DeleteResourcesAsync(deleteParams);
 
-        var deletionResult = await _cloudinary.DestroyAsync(deletionParams);
-
-        return deletionResult.Result == "ok";
+            return result.StatusCode==HttpStatusCode.OK;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            return false;
+        }
     }
 }

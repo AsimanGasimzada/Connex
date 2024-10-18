@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Connex.DataAccess.DataInitalizers;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
@@ -15,9 +16,11 @@ public class AppDbContext : IdentityDbContext<AppUser>
     {
         base.OnModelCreating(modelBuilder);
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        modelBuilder.AddSeedData();
     }
-
 
     public DbSet<Setting> Settings { get; set; } = null!;
     public DbSet<Slider> Sliders { get; set; } = null!;
+    public DbSet<SliderDetail> SliderDetails { get; set; } = null!;
+    public DbSet<Language> Languages { get; set; } = null!;
 }

@@ -87,6 +87,59 @@ namespace Connex.DataAccess.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("Connex.Core.Entities.Language", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasMaxLength(5)
+                        .HasColumnType("nvarchar(5)");
+
+                    b.Property<string>("ImagePath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDefault")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Code")
+                        .IsUnique();
+
+                    b.ToTable("Languages");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 2,
+                            Code = "ENG",
+                            ImagePath = "https://res.cloudinary.com/dlilcwizx/image/upload/v1729197779/ull5rtwaatdqi1qhuidn.png",
+                            IsDefault = false
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Code = "RUS",
+                            ImagePath = "https://res.cloudinary.com/dlilcwizx/image/upload/v1729197779/n4p898pyw6gnxopu5hrc.png",
+                            IsDefault = false
+                        },
+                        new
+                        {
+                            Id = 1,
+                            Code = "AZE",
+                            ImagePath = "https://res.cloudinary.com/dlilcwizx/image/upload/v1729197779/rc1flc3kendub8xvmo8a.png",
+                            IsDefault = true
+                        });
+                });
+
             modelBuilder.Entity("Connex.Core.Entities.Setting", b =>
                 {
                     b.Property<int>("Id")
@@ -121,6 +174,24 @@ namespace Connex.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("ImagePath")
+                        .IsRequired()
+                        .HasMaxLength(1024)
+                        .HasColumnType("nvarchar(1024)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Sliders");
+                });
+
+            modelBuilder.Entity("Connex.Core.Entities.SliderDetail", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
                     b.Property<string>("ButtonTitle")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -130,10 +201,11 @@ namespace Connex.DataAccess.Migrations
                         .HasMaxLength(512)
                         .HasColumnType("nvarchar(512)");
 
-                    b.Property<string>("ImagePath")
-                        .IsRequired()
-                        .HasMaxLength(1024)
-                        .HasColumnType("nvarchar(1024)");
+                    b.Property<int>("LanguageId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SliderId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Subtitle")
                         .IsRequired()
@@ -147,7 +219,12 @@ namespace Connex.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Sliders");
+                    b.HasIndex("SliderId");
+
+                    b.HasIndex("LanguageId", "SliderId")
+                        .IsUnique();
+
+                    b.ToTable("SliderDetails");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -283,6 +360,25 @@ namespace Connex.DataAccess.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Connex.Core.Entities.SliderDetail", b =>
+                {
+                    b.HasOne("Connex.Core.Entities.Language", "Language")
+                        .WithMany("SliderDetails")
+                        .HasForeignKey("LanguageId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Connex.Core.Entities.Slider", "Slider")
+                        .WithMany("SliderDetails")
+                        .HasForeignKey("SliderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Language");
+
+                    b.Navigation("Slider");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -332,6 +428,16 @@ namespace Connex.DataAccess.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Connex.Core.Entities.Language", b =>
+                {
+                    b.Navigation("SliderDetails");
+                });
+
+            modelBuilder.Entity("Connex.Core.Entities.Slider", b =>
+                {
+                    b.Navigation("SliderDetails");
                 });
 #pragma warning restore 612, 618
         }

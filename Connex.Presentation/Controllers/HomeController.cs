@@ -1,5 +1,6 @@
 using Connex.Business.Dtos;
 using Connex.Business.Services.Abstractions;
+using Connex.Core.Enums;
 using Connex.Presentation.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -10,11 +11,12 @@ namespace Connex.Presentation.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IAccountService _accountService;
-
-        public HomeController(ILogger<HomeController> logger, IAccountService accountService)
+        private readonly ISliderService _sliderService;
+        public HomeController(ILogger<HomeController> logger, IAccountService accountService, ISliderService sliderService)
         {
             _logger = logger;
             _accountService = accountService;
+            _sliderService = sliderService;
         }
 
         public IActionResult Index()
@@ -24,13 +26,14 @@ namespace Connex.Presentation.Controllers
 
         public async Task<IActionResult> VerifyEmail(VerifyEmailDto dto)
         {
-            await _accountService.VerifyEmailAsync(dto,ModelState);
+            await _accountService.VerifyEmailAsync(dto, ModelState);
 
             return Json("OK");
         }
-        public IActionResult Privacy()
+        public async Task<IActionResult> Test(int language=1)
         {
-            return View();
+            var result = await _sliderService.GetAllAsync((Languages)language);
+            return Json(result);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
