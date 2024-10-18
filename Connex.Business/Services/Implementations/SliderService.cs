@@ -69,19 +69,19 @@ public class SliderService : ISliderService
         return true;
     }
 
-    public async Task<bool> DeleteAsync(int id)
+    public async Task DeleteAsync(int id)
     {
         var slider = await _repository.GetAsync(id);
 
         if (slider is null)
-            return false;
+            throw new NotFoundException($"{id}-bu idli slayd mövcud deyildir.");
 
         _repository.Delete(slider);
         await _repository.SaveChangesAsync();
 
         await _cloudinaryService.FileDeleteAsync(slider.ImagePath);
 
-        return true;
+
     }
 
     public async Task<List<SliderGetDto>> GetAllAsync(Languages language = Languages.Azerbaijan)
@@ -95,33 +95,33 @@ public class SliderService : ISliderService
         return dtos;
     }
 
-    public async Task<SliderGetDto?> GetAsync(int id, Languages language = Languages.Azerbaijan)
+    public async Task<SliderGetDto> GetAsync(int id, Languages language = Languages.Azerbaijan)
     {
         _checkLanguageId(ref language);
 
         var slider = await _repository.GetAsync(id, _getIncludeFunc(language));
 
         if (slider is null)
-            return null;
+            throw new NotFoundException($"{id}-bu idli slayd mövcud deyildir.");
 
         var dto = _mapper.Map<SliderGetDto>(slider);
 
         return dto;
     }
 
-    public async Task<SliderUpdateDto?> GetUpdatedSlider(int id)
+    public async Task<SliderUpdateDto> GetUpdatedSliderAsync(int id)
     {
         var slider = await _repository.GetAsync(id, x => x.Include(x => x.SliderDetails));
 
         if (slider is null)
-            return null;
+            throw new NotFoundException($"{id}-bu idli slayd mövcud deyildir.");
 
         var dto = _mapper.Map<SliderUpdateDto>(slider);
 
         return dto;
     }
 
-    public async Task<bool?> UpdateAsync(SliderUpdateDto dto, ModelStateDictionary ModelState)
+    public async Task<bool> UpdateAsync(SliderUpdateDto dto, ModelStateDictionary ModelState)
     {
         if (!ModelState.IsValid)
             return false;
@@ -129,7 +129,7 @@ public class SliderService : ISliderService
         var existSlider = await _repository.GetAsync(dto.Id, x => x.Include(x => x.SliderDetails));
 
         if (existSlider is null)
-            return null;
+            throw new NotFoundException($"{dto.Id}-bu idli slayd mövcud deyildir.");
 
         if (dto.Image is { })
         {

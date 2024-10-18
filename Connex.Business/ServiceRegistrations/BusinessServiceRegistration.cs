@@ -18,11 +18,12 @@ public static class BusinessServiceRegistration
 
     private static void _addServices(IServiceCollection services)
     {
+        services.AddScoped<IPartnerService, PartnerService>();
         services.AddScoped<ISliderService, SliderService>();
         services.AddScoped<ISettingService, SettingService>();
-        services.AddScoped<ICloudinaryService,CloudinaryService>();
-        services.AddScoped<IEmailService,EmailService>();
-        services.AddScoped<IAccountService,AccountService>();
+        services.AddScoped<ICloudinaryService, CloudinaryService>();
+        services.AddScoped<IEmailService, EmailService>();
+        services.AddScoped<IAccountService, AccountService>();
 
         services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
         services.AddHttpContextAccessor();

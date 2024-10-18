@@ -1,0 +1,65 @@
+﻿@model List<PartnerGetDto>
+@{
+    int count = 1;
+}
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Partnyorlar</h4>
+            <p class="card-description">
+                <a asp-action="Create" class="btn btn-success">Yenisini yarat</a>
+            </p>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                #
+                            </th>
+                            <th>
+                                Şəkil
+                            </th>
+                            <th>
+                                Adı
+                            </th>
+                            <th>
+                                Vebsaytı
+                            </th>
+
+                            <th>
+                                Proseslər
+                            </th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var partner in Model)
+                        {
+                            <tr>
+                                <td class="py-1">
+                                    @(count++)
+                                </td>
+                                <td>
+                                    <img src="@partner.ImagePath" />
+                                </td>
+                                <td>
+                                    @partner.Name
+                                </td>
+                                <td>
+                                    <a href="@partner.OfficialWebsite">@partner.OfficialWebsite</a>
+                                </td>
+                                <td>
+                                    <a asp-action="Update" asp-route-id="@partner.Id" class="btn btn-warning"><i class="mdi mdi-grease-pencil"></i></a>
+                                    <a asp-action="Delete" asp-route-id="@partner.Id" class="btn btn-danger"><i class="mdi mdi-delete"></i></a>
+                                </td>
+
+                            </tr>
+
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

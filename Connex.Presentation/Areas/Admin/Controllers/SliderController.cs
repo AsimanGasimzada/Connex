@@ -1,5 +1,4 @@
 ﻿using Connex.Business.Dtos;
-using Connex.Business.Services.Abstractions;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Connex.Presentation.Areas.Admin.Controllers;
@@ -39,17 +38,14 @@ public class SliderController : Controller
 
     public async Task<IActionResult> Delete(int id)
     {
-        var result=await _sliderService.DeleteAsync(id);
-
-        if (result is false)
-            return NotFound();
+        await _sliderService.DeleteAsync(id);
 
         return RedirectToAction(nameof(Index));
     }
 
     public async Task<IActionResult> Update(int id)
     {
-        var result = await _sliderService.GetUpdatedSlider(id);
+        var result = await _sliderService.GetUpdatedSliderAsync(id);
 
         if (result is null)
             return NotFound();
@@ -60,13 +56,12 @@ public class SliderController : Controller
     [HttpPost]
     public async Task<IActionResult> Update(SliderUpdateDto dto)
     {
-        var result=await _sliderService.UpdateAsync(dto,ModelState);
+        var result = await _sliderService.UpdateAsync(dto, ModelState);
 
-        if(result is null)
-            return BadRequest();
-        else if(result is false)
+
+        if (result is false)
             return View(dto);
-        
+
         return RedirectToAction(nameof(Index));
     }
 }

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Connex.Core.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Connex.Business.Services.Implementations;
@@ -35,17 +36,17 @@ public class SettingService : ISettingService
         return true;
     }
 
-    public async Task<bool> DeleteAsync(int id)
+    public async Task DeleteAsync(int id)
     {
         var setting = await _repository.GetAsync(id);
 
+
         if (setting is null)
-            return false;
+            throw new NotFoundException($"{id}-bu idli məlumat mövcud deyildir.");
 
         _repository.Delete(setting);
         await _repository.SaveChangesAsync();
 
-        return true;
     }
 
     public async Task<List<SettingGetDto>> GetAllAsync()
@@ -64,31 +65,31 @@ public class SettingService : ISettingService
         return settings;
     }
 
-    public async Task<SettingGetDto?> GetAsync(int id)
+    public async Task<SettingGetDto> GetAsync(int id)
     {
         var setting = await _repository.GetAsync(id);
 
         if (setting is null)
-            return null;
+            throw new NotFoundException($"{id}-bu idli məlumat mövcud deyildir.");
 
         var dto = _mapper.Map<SettingGetDto>(setting);
 
         return dto;
     }
 
-    public async Task<SettingUpdateDto?> GetUpdatedSettingAsync(int id)
+    public async Task<SettingUpdateDto> GetUpdatedSettingAsync(int id)
     {
         var setting = await _repository.GetAsync(id);
 
         if (setting is null)
-            return null;
+            throw new NotFoundException($"{id}-bu idli məlumat mövcud deyildir.");
 
         var dto = _mapper.Map<SettingUpdateDto>(setting);
 
         return dto;
     }
 
-    public async Task<bool?> UpdateAsync(SettingUpdateDto dto, ModelStateDictionary ModelState)
+    public async Task<bool> UpdateAsync(SettingUpdateDto dto, ModelStateDictionary ModelState)
     {
         if (!ModelState.IsValid)
             return false;
@@ -96,7 +97,7 @@ public class SettingService : ISettingService
         var existSetting = await _repository.GetAsync(dto.Id);
 
         if (existSetting is null)
-            return null;
+            throw new NotFoundException($"{dto.Id}-bu idli məlumat mövcud deyildir.");
 
         existSetting = _mapper.Map(dto, existSetting);
 

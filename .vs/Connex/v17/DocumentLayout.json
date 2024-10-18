@@ -7,24 +7,128 @@
       "RelativeMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|solutionrelative:connex.presentation\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.presentation\\areas\\admin\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|solutionrelative:connex.presentation\\areas\\admin\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.presentation\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|solutionrelative:connex.presentation\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\services\\implementations\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\services\\implementations\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\services\\abstractions\\isliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\services\\abstractions\\isliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\services\\abstractions\\isettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\services\\abstractions\\isettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\services\\implementations\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\services\\implementations\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.presentation\\areas\\admin\\views\\slider\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|solutionrelative:connex.presentation\\areas\\admin\\views\\slider\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.presentation\\areas\\admin\\views\\partner\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|solutionrelative:connex.presentation\\areas\\admin\\views\\partner\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.presentation\\areas\\admin\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|solutionrelative:connex.presentation\\areas\\admin\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\services\\implementations\\partnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\services\\implementations\\partnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.presentation\\areas\\admin\\views\\partner\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|solutionrelative:connex.presentation\\areas\\admin\\views\\partner\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.presentation\\areas\\admin\\views\\partner\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|solutionrelative:connex.presentation\\areas\\admin\\views\\partner\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.presentation\\areas\\admin\\views\\slider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|solutionrelative:connex.presentation\\areas\\admin\\views\\slider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.presentation\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|solutionrelative:connex.presentation\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.presentation\\areas\\admin\\controllers\\partnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|solutionrelative:connex.presentation\\areas\\admin\\controllers\\partnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.presentation\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|solutionrelative:connex.presentation\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\serviceregistrations\\businessserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\serviceregistrations\\businessserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\services\\abstractions\\ipartnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\services\\abstractions\\ipartnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\automappers\\partnerautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\automappers\\partnerautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\dtos\\partnetdtos\\partnercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\dtos\\partnetdtos\\partnercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.dataaccess\\datainitalizers\\seeddataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|solutionrelative:connex.dataaccess\\datainitalizers\\seeddataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.dataaccess\\helpers\\customidentityerrordescriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|solutionrelative:connex.dataaccess\\helpers\\customidentityerrordescriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.dataaccess\\serviceregistrations\\dataaccessserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|solutionrelative:connex.dataaccess\\serviceregistrations\\dataaccessserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.dataaccess\\repositories\\implementations\\partnerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|solutionrelative:connex.dataaccess\\repositories\\implementations\\partnerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.dataaccess\\repositories\\abstractions\\ipartnerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|solutionrelative:connex.dataaccess\\repositories\\abstractions\\ipartnerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.dataaccess\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|solutionrelative:connex.dataaccess\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.presentation\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|solutionrelative:connex.presentation\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|solutionrelative:connex.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Migrations\\20241018000912_AddedPartners.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Connex.DataAccess\\Migrations\\20241018000912_AddedPartners.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.dataaccess\\configurations\\partnerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|solutionrelative:connex.dataaccess\\configurations\\partnerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC6FF38-6EC0-469B-B418-5E202FE5F3D1}|Connex.Core\\Connex.Core.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.core\\entities\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC6FF38-6EC0-469B-B418-5E202FE5F3D1}|Connex.Core\\Connex.Core.csproj|solutionrelative:connex.core\\entities\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.presentation\\areas\\admin\\views\\slider\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|solutionrelative:connex.presentation\\areas\\admin\\views\\slider\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\dtos\\sliderdtos\\slidercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,10 +143,6 @@
       "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\services\\implementations\\cloudinaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\serviceregistrations\\businessserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\serviceregistrations\\businessserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\dtos\\sliderdetaildtos\\sliderdetailcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\dtos\\sliderdetaildtos\\sliderdetailcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,10 +153,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\dtos\\appsettingjsondtos\\cloudinaryoptionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\dtos\\appsettingjsondtos\\cloudinaryoptionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|solutionrelative:connex.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.presentation\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -75,24 +171,8 @@
       "RelativeMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|solutionrelative:connex.dataaccess\\repositories\\implementations\\generic\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\services\\abstractions\\isliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\services\\abstractions\\isliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.dataaccess\\datainitalizers\\seeddataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|solutionrelative:connex.dataaccess\\datainitalizers\\seeddataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9BC6FF38-6EC0-469B-B418-5E202FE5F3D1}|Connex.Core\\Connex.Core.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.core\\enums\\languages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BC6FF38-6EC0-469B-B418-5E202FE5F3D1}|Connex.Core\\Connex.Core.csproj|solutionrelative:connex.core\\enums\\languages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Migrations\\20241017215046_BugFixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Connex.DataAccess\\Migrations\\20241017215046_BugFixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.dataaccess\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|solutionrelative:connex.dataaccess\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Migrations\\20241017214725_BugFixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -119,10 +199,6 @@
       "RelativeMoniker": "D:0:0:{9BC6FF38-6EC0-469B-B418-5E202FE5F3D1}|Connex.Core\\Connex.Core.csproj|solutionrelative:connex.core\\entities\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Migrations\\20241017211200_ChangeSlider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Connex.DataAccess\\Migrations\\20241017211200_ChangeSlider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Migrations\\20241017211131_ChangeSlider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Connex.DataAccess\\Migrations\\20241017211131_ChangeSlider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -137,10 +213,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9BC6FF38-6EC0-469B-B418-5E202FE5F3D1}|Connex.Core\\Connex.Core.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.core\\entities\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BC6FF38-6EC0-469B-B418-5E202FE5F3D1}|Connex.Core\\Connex.Core.csproj|solutionrelative:connex.core\\entities\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Migrations\\20241017204850_AddedLanguagesAndSeedData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Connex.DataAccess\\Migrations\\20241017204850_AddedLanguagesAndSeedData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.dataaccess\\configurations\\languageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -238,14 +310,6 @@
       "RelativeMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|solutionrelative:connex.presentation\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\services\\implementations\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\services\\implementations\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\services\\abstractions\\isettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\services\\abstractions\\isettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\dtos\\settingdtos\\settingcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\dtos\\settingdtos\\settingcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -258,10 +322,6 @@
       "RelativeMoniker": "D:0:0:{D2B85BF2-3E3E-4F9C-B5AA-2966B59D19BF}|Connex.Presentation\\Connex.Presentation.csproj|solutionrelative:connex.presentation\\extensions\\extensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.dataaccess\\serviceregistrations\\dataaccessserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|solutionrelative:connex.dataaccess\\serviceregistrations\\dataaccessserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.dataaccess\\configurations\\settingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|solutionrelative:connex.dataaccess\\configurations\\settingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -270,20 +330,8 @@
       "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\connex.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.dataaccess\\helpers\\seeddatahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|solutionrelative:connex.dataaccess\\helpers\\seeddatahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.dataaccess\\helpers\\customidentityerrordescriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|solutionrelative:connex.dataaccess\\helpers\\customidentityerrordescriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.dataaccess\\connex.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|solutionrelative:connex.dataaccess\\connex.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|solutionrelative:connex.business\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{140ED7E2-99E2-41A6-88D1-A1494F8CA733}|Connex.Business\\Connex.Business.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.business\\services\\abstractions\\icloudinaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -320,6 +368,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.dataaccess\\migrations\\20241015080655_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|solutionrelative:connex.dataaccess\\migrations\\20241015080655_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.dataaccess\\migrations\\20241017215046_bugfixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|solutionrelative:connex.dataaccess\\migrations\\20241017215046_bugfixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.dataaccess\\migrations\\20241017211200_changeslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|solutionrelative:connex.dataaccess\\migrations\\20241017211200_changeslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|c:\\users\\asiman\\source\\repos\\connex\\connex.dataaccess\\migrations\\20241017204850_addedlanguagesandseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3A92748-612F-4445-83D0-B35D63A2D7B9}|Connex.DataAccess\\Connex.DataAccess.csproj|solutionrelative:connex.dataaccess\\migrations\\20241017204850_addedlanguagesandseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -329,7 +389,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -341,106 +401,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
-              "RelativeDocumentMoniker": "Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
-              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
-              "RelativeToolTip": "Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
-              "ViewState": "AQIAAGYAAAAAAAAAAAAAAHMAAAAWAAAA",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Partner\\Index.cshtml",
+              "RelativeDocumentMoniker": "Connex.Presentation\\Areas\\Admin\\Views\\Partner\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Partner\\Index.cshtml",
+              "RelativeToolTip": "Connex.Presentation\\Areas\\Admin\\Views\\Partner\\Index.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADAAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T23:14:08.543Z",
+              "WhenOpened": "2024-10-18T00:40:28.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SliderController.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "RelativeDocumentMoniker": "Connex.Presentation\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "RelativeToolTip": "Connex.Presentation\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAgwEEAAAAgAAAA",
+              "DocumentIndex": 9,
+              "Title": "PartnerService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Implementations\\PartnerService.cs",
+              "RelativeDocumentMoniker": "Connex.Business\\Services\\Implementations\\PartnerService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Implementations\\PartnerService.cs",
+              "RelativeToolTip": "Connex.Business\\Services\\Implementations\\PartnerService.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAQwGIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T22:23:35.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SliderCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
-              "RelativeDocumentMoniker": "Connex.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
-              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
-              "RelativeToolTip": "Connex.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T09:46:06.415Z",
+              "WhenOpened": "2024-10-18T00:22:09.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "CloudinaryService.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Implementations\\CloudinaryService.cs",
-              "RelativeDocumentMoniker": "Connex.Business\\Services\\Implementations\\CloudinaryService.cs",
-              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Implementations\\CloudinaryService.cs",
-              "RelativeToolTip": "Connex.Business\\Services\\Implementations\\CloudinaryService.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAmwDUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T10:33:45.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
-              "RelativeDocumentMoniker": "Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
-              "RelativeToolTip": "Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAkwE4AAABSAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "RelativeDocumentMoniker": "Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "RelativeToolTip": "Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T22:40:13.354Z",
+              "WhenOpened": "2024-10-17T22:33:36.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SliderUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\SliderDtos\\SliderUpdateDto.cs",
-              "RelativeDocumentMoniker": "Connex.Business\\Dtos\\SliderDtos\\SliderUpdateDto.cs",
-              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\SliderDtos\\SliderUpdateDto.cs",
-              "RelativeToolTip": "Connex.Business\\Dtos\\SliderDtos\\SliderUpdateDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T09:53:55.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "SliderService.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Implementations\\SliderService.cs",
               "RelativeDocumentMoniker": "Connex.Business\\Services\\Implementations\\SliderService.cs",
               "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Implementations\\SliderService.cs",
               "RelativeToolTip": "Connex.Business\\Services\\Implementations\\SliderService.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAkwDoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T09:51:45.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ISliderService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Abstractions\\ISliderService.cs",
+              "RelativeDocumentMoniker": "Connex.Business\\Services\\Abstractions\\ISliderService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Abstractions\\ISliderService.cs",
+              "RelativeToolTip": "Connex.Business\\Services\\Abstractions\\ISliderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T09:52:04.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "Connex.Business\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\GlobalUsings.cs",
+              "RelativeToolTip": "Connex.Business\\GlobalUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T10:04:20.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SettingService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Implementations\\SettingService.cs",
+              "RelativeDocumentMoniker": "Connex.Business\\Services\\Implementations\\SettingService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Implementations\\SettingService.cs",
+              "RelativeToolTip": "Connex.Business\\Services\\Implementations\\SettingService.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAmwGMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T10:37:14.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ISettingService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Abstractions\\ISettingService.cs",
+              "RelativeDocumentMoniker": "Connex.Business\\Services\\Abstractions\\ISettingService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Abstractions\\ISettingService.cs",
+              "RelativeToolTip": "Connex.Business\\Services\\Abstractions\\ISettingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T10:37:02.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
-              "RelativeDocumentMoniker": "Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
-              "RelativeToolTip": "Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T22:33:36.553Z",
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "Connex.Presentation\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "Connex.Presentation\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T22:23:35.244Z",
               "EditorCaption": ""
             },
             {
@@ -451,14 +524,335 @@
               "RelativeDocumentMoniker": "Connex.Presentation\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Connex.Presentation\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAARAAAA",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAIMAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-16T11:29:36.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Partner\\Update.cshtml",
+              "RelativeDocumentMoniker": "Connex.Presentation\\Areas\\Admin\\Views\\Partner\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Partner\\Update.cshtml",
+              "RelativeToolTip": "Connex.Presentation\\Areas\\Admin\\Views\\Partner\\Update.cshtml",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAACwAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T00:47:44.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Partner\\Create.cshtml",
+              "RelativeDocumentMoniker": "Connex.Presentation\\Areas\\Admin\\Views\\Partner\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Partner\\Create.cshtml",
+              "RelativeToolTip": "Connex.Presentation\\Areas\\Admin\\Views\\Partner\\Create.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAowDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T00:42:31.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
+              "RelativeDocumentMoniker": "Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
+              "RelativeToolTip": "Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T22:40:13.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PartnerController.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Controllers\\PartnerController.cs",
+              "RelativeDocumentMoniker": "Connex.Presentation\\Areas\\Admin\\Controllers\\PartnerController.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Controllers\\PartnerController.cs",
+              "RelativeToolTip": "Connex.Presentation\\Areas\\Admin\\Controllers\\PartnerController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAMwCcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T00:39:14.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "Connex.Presentation\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\GlobalUsings.cs",
+              "RelativeToolTip": "Connex.Presentation\\GlobalUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T00:39:42.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IPartnerService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Abstractions\\IPartnerService.cs",
+              "RelativeDocumentMoniker": "Connex.Business\\Services\\Abstractions\\IPartnerService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Abstractions\\IPartnerService.cs",
+              "RelativeToolTip": "Connex.Business\\Services\\Abstractions\\IPartnerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T00:18:56.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Connex.Business\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "Connex.Business\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T00:28:40.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PartnerAutoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\AutoMappers\\PartnerAutoMapper.cs",
+              "RelativeDocumentMoniker": "Connex.Business\\AutoMappers\\PartnerAutoMapper.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\AutoMappers\\PartnerAutoMapper.cs",
+              "RelativeToolTip": "Connex.Business\\AutoMappers\\PartnerAutoMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T00:18:05.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PartnerCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\PartnetDtos\\PartnerCreateDto.cs",
+              "RelativeDocumentMoniker": "Connex.Business\\Dtos\\PartnetDtos\\PartnerCreateDto.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\PartnetDtos\\PartnerCreateDto.cs",
+              "RelativeToolTip": "Connex.Business\\Dtos\\PartnetDtos\\PartnerCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T00:15:52.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PartnerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Repositories\\Implementations\\PartnerRepository.cs",
+              "RelativeDocumentMoniker": "Connex.DataAccess\\Repositories\\Implementations\\PartnerRepository.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Repositories\\Implementations\\PartnerRepository.cs",
+              "RelativeToolTip": "Connex.DataAccess\\Repositories\\Implementations\\PartnerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T00:11:27.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DataAccessServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\ServiceRegistrations\\DataAccessServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Connex.DataAccess\\ServiceRegistrations\\DataAccessServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\ServiceRegistrations\\DataAccessServiceRegistration.cs",
+              "RelativeToolTip": "Connex.DataAccess\\ServiceRegistrations\\DataAccessServiceRegistration.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAA1wDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T07:57:36.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BusinessServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\ServiceRegistrations\\BusinessServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Connex.Business\\ServiceRegistrations\\BusinessServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\ServiceRegistrations\\BusinessServiceRegistration.cs",
+              "RelativeToolTip": "Connex.Business\\ServiceRegistrations\\BusinessServiceRegistration.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAkwB0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T10:05:44.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IPartnerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Repositories\\Abstractions\\IPartnerRepository.cs",
+              "RelativeDocumentMoniker": "Connex.DataAccess\\Repositories\\Abstractions\\IPartnerRepository.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Repositories\\Abstractions\\IPartnerRepository.cs",
+              "RelativeToolTip": "Connex.DataAccess\\Repositories\\Abstractions\\IPartnerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T00:11:04.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Connex.Presentation\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\appsettings.Development.json",
+              "RelativeToolTip": "Connex.Presentation\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-18T00:09:45.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CustomIdentityErrorDescriber.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Helpers\\CustomIdentityErrorDescriber.cs",
+              "RelativeDocumentMoniker": "Connex.DataAccess\\Helpers\\CustomIdentityErrorDescriber.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Helpers\\CustomIdentityErrorDescriber.cs",
+              "RelativeToolTip": "Connex.DataAccess\\Helpers\\CustomIdentityErrorDescriber.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T16:20:19.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SeedDataService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\DataInitalizers\\SeedDataService.cs",
+              "RelativeDocumentMoniker": "Connex.DataAccess\\DataInitalizers\\SeedDataService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\DataInitalizers\\SeedDataService.cs",
+              "RelativeToolTip": "Connex.DataAccess\\DataInitalizers\\SeedDataService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T20:25:47.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20241018000912_AddedPartners.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Migrations\\20241018000912_AddedPartners.cs",
+              "RelativeDocumentMoniker": "Connex.DataAccess\\Migrations\\20241018000912_AddedPartners.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Migrations\\20241018000912_AddedPartners.cs",
+              "RelativeToolTip": "Connex.DataAccess\\Migrations\\20241018000912_AddedPartners.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T00:09:12.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PartnerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Configurations\\PartnerConfiguration.cs",
+              "RelativeDocumentMoniker": "Connex.DataAccess\\Configurations\\PartnerConfiguration.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Configurations\\PartnerConfiguration.cs",
+              "RelativeToolTip": "Connex.DataAccess\\Configurations\\PartnerConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T00:06:58.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Partner.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Core\\Entities\\Partner.cs",
+              "RelativeDocumentMoniker": "Connex.Core\\Entities\\Partner.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Core\\Entities\\Partner.cs",
+              "RelativeToolTip": "Connex.Core\\Entities\\Partner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T00:05:09.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SliderUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\SliderDtos\\SliderUpdateDto.cs",
+              "RelativeDocumentMoniker": "Connex.Business\\Dtos\\SliderDtos\\SliderUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\SliderDtos\\SliderUpdateDto.cs",
+              "RelativeToolTip": "Connex.Business\\Dtos\\SliderDtos\\SliderUpdateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T09:53:55.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\appsettings.json",
+              "RelativeDocumentMoniker": "Connex.Presentation\\appsettings.json",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\appsettings.json",
+              "RelativeToolTip": "Connex.Presentation\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-15T08:02:39.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Contexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Connex.DataAccess\\Contexts\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Contexts\\AppDbContext.cs",
+              "RelativeToolTip": "Connex.DataAccess\\Contexts\\AppDbContext.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA5wBkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T07:42:00.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CloudinaryService.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Implementations\\CloudinaryService.cs",
+              "RelativeDocumentMoniker": "Connex.Business\\Services\\Implementations\\CloudinaryService.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Implementations\\CloudinaryService.cs",
+              "RelativeToolTip": "Connex.Business\\Services\\Implementations\\CloudinaryService.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAmwDUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T10:33:45.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SliderCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
+              "RelativeDocumentMoniker": "Connex.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
+              "RelativeToolTip": "Connex.Business\\Dtos\\SliderDtos\\SliderCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T09:46:06.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
+              "RelativeDocumentMoniker": "Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
+              "RelativeToolTip": "Connex.Presentation\\Areas\\Admin\\Views\\Slider\\Update.cshtml",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAHMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T23:14:08.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "CloudinaryOptionsDto.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\AppSettingJsonDtos\\CloudinaryOptionsDto.cs",
               "RelativeDocumentMoniker": "Connex.Business\\Dtos\\AppSettingJsonDtos\\CloudinaryOptionsDto.cs",
@@ -466,12 +860,11 @@
               "RelativeToolTip": "Connex.Business\\Dtos\\AppSettingJsonDtos\\CloudinaryOptionsDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T10:37:43.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T10:37:43.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 35,
               "Title": "SliderDetailCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\SliderDetailDtos\\SliderDetailCreateDto.cs",
               "RelativeDocumentMoniker": "Connex.Business\\Dtos\\SliderDetailDtos\\SliderDetailCreateDto.cs",
@@ -479,12 +872,11 @@
               "RelativeToolTip": "Connex.Business\\Dtos\\SliderDetailDtos\\SliderDetailCreateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T21:24:12.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T21:24:12.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 36,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Connex.Presentation\\Controllers\\HomeController.cs",
@@ -492,38 +884,11 @@
               "RelativeToolTip": "Connex.Presentation\\Controllers\\HomeController.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAmwBgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T14:46:18.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T14:46:18.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BusinessServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\ServiceRegistrations\\BusinessServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Connex.Business\\ServiceRegistrations\\BusinessServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\ServiceRegistrations\\BusinessServiceRegistration.cs",
-              "RelativeToolTip": "Connex.Business\\ServiceRegistrations\\BusinessServiceRegistration.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAkwBwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T10:05:44.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\appsettings.json",
-              "RelativeDocumentMoniker": "Connex.Presentation\\appsettings.json",
-              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\appsettings.json",
-              "RelativeToolTip": "Connex.Presentation\\appsettings.json",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAA0AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-15T08:02:39.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 39,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Connex.Presentation\\Views\\_ViewImports.cshtml",
@@ -531,12 +896,11 @@
               "RelativeToolTip": "Connex.Presentation\\Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T22:39:22.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T22:39:22.568Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 40,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Repositories\\Abstractions\\Generic\\IRepository.cs",
               "RelativeDocumentMoniker": "Connex.DataAccess\\Repositories\\Abstractions\\Generic\\IRepository.cs",
@@ -544,38 +908,11 @@
               "RelativeToolTip": "Connex.DataAccess\\Repositories\\Abstractions\\Generic\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAB2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T07:43:53.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T07:43:53.064Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ISliderService.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Abstractions\\ISliderService.cs",
-              "RelativeDocumentMoniker": "Connex.Business\\Services\\Abstractions\\ISliderService.cs",
-              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Abstractions\\ISliderService.cs",
-              "RelativeToolTip": "Connex.Business\\Services\\Abstractions\\ISliderService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T09:52:04.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "SeedDataService.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\DataInitalizers\\SeedDataService.cs",
-              "RelativeDocumentMoniker": "Connex.DataAccess\\DataInitalizers\\SeedDataService.cs",
-              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\DataInitalizers\\SeedDataService.cs",
-              "RelativeToolTip": "Connex.DataAccess\\DataInitalizers\\SeedDataService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T20:25:47.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 42,
               "Title": "Languages.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Core\\Enums\\Languages.cs",
               "RelativeDocumentMoniker": "Connex.Core\\Enums\\Languages.cs",
@@ -583,12 +920,11 @@
               "RelativeToolTip": "Connex.Core\\Enums\\Languages.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T21:15:05.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T21:15:05.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 38,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Connex.Presentation\\Areas\\Admin\\Views\\_ViewImports.cshtml",
@@ -596,12 +932,11 @@
               "RelativeToolTip": "Connex.Presentation\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T11:30:57.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T11:30:57.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 92,
               "Title": "20241017215046_BugFixed.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Migrations\\20241017215046_BugFixed.cs",
               "RelativeDocumentMoniker": "Connex.DataAccess\\Migrations\\20241017215046_BugFixed.cs",
@@ -609,12 +944,11 @@
               "RelativeToolTip": "Connex.DataAccess\\Migrations\\20241017215046_BugFixed.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T21:50:46.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T21:50:46.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 41,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Repositories\\Implementations\\Generic\\Repository.cs",
               "RelativeDocumentMoniker": "Connex.DataAccess\\Repositories\\Implementations\\Generic\\Repository.cs",
@@ -622,25 +956,11 @@
               "RelativeToolTip": "Connex.DataAccess\\Repositories\\Implementations\\Generic\\Repository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T07:43:25.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T07:43:25.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Contexts\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Connex.DataAccess\\Contexts\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Contexts\\AppDbContext.cs",
-              "RelativeToolTip": "Connex.DataAccess\\Contexts\\AppDbContext.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAwBIAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T07:42:00.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 43,
               "Title": "20241017214725_BugFixed.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Migrations\\20241017214725_BugFixed.cs",
               "RelativeDocumentMoniker": "Connex.DataAccess\\Migrations\\20241017214725_BugFixed.cs",
@@ -648,12 +968,11 @@
               "RelativeToolTip": "Connex.DataAccess\\Migrations\\20241017214725_BugFixed.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T21:47:25.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T21:47:25.945Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 45,
               "Title": "Connex.Presentation.csproj",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Connex.Presentation.csproj",
               "RelativeDocumentMoniker": "Connex.Presentation\\Connex.Presentation.csproj",
@@ -661,12 +980,11 @@
               "RelativeToolTip": "Connex.Presentation\\Connex.Presentation.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-16T16:24:06.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T16:24:06.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 46,
               "Title": "SliderAutoMapper.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\AutoMappers\\SliderAutoMapper.cs",
               "RelativeDocumentMoniker": "Connex.Business\\AutoMappers\\SliderAutoMapper.cs",
@@ -674,12 +992,11 @@
               "RelativeToolTip": "Connex.Business\\AutoMappers\\SliderAutoMapper.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAwAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T10:03:33.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T10:03:33.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 44,
               "Title": "Slider.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Core\\Entities\\Slider.cs",
               "RelativeDocumentMoniker": "Connex.Core\\Entities\\Slider.cs",
@@ -687,12 +1004,11 @@
               "RelativeToolTip": "Connex.Core\\Entities\\Slider.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T08:19:28.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T08:19:28.007Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 47,
               "Title": "SliderDetailAutoMapper.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\AutoMappers\\SliderDetailAutoMapper.cs",
               "RelativeDocumentMoniker": "Connex.Business\\AutoMappers\\SliderDetailAutoMapper.cs",
@@ -700,12 +1016,11 @@
               "RelativeToolTip": "Connex.Business\\AutoMappers\\SliderDetailAutoMapper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T21:27:56.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T21:27:56.162Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 48,
               "Title": "Setting.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Core\\Entities\\Setting.cs",
               "RelativeDocumentMoniker": "Connex.Core\\Entities\\Setting.cs",
@@ -713,12 +1028,11 @@
               "RelativeToolTip": "Connex.Core\\Entities\\Setting.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T09:42:25.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T09:42:25.794Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 93,
               "Title": "20241017211200_ChangeSlider.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Migrations\\20241017211200_ChangeSlider.cs",
               "RelativeDocumentMoniker": "Connex.DataAccess\\Migrations\\20241017211200_ChangeSlider.cs",
@@ -726,12 +1040,11 @@
               "RelativeToolTip": "Connex.DataAccess\\Migrations\\20241017211200_ChangeSlider.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T21:12:00.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T21:12:00.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 49,
               "Title": "20241017211131_ChangeSlider.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Migrations\\20241017211131_ChangeSlider.cs",
               "RelativeDocumentMoniker": "Connex.DataAccess\\Migrations\\20241017211131_ChangeSlider.cs",
@@ -739,12 +1052,11 @@
               "RelativeToolTip": "Connex.DataAccess\\Migrations\\20241017211131_ChangeSlider.cs",
               "ViewState": "AQIAAFEAAAAAAAAAAAAYwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T21:11:31.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T21:11:31.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 50,
               "Title": "20241017211104_changeSlider.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Migrations\\20241017211104_changeSlider.cs",
               "RelativeDocumentMoniker": "Connex.DataAccess\\Migrations\\20241017211104_changeSlider.cs",
@@ -752,12 +1064,11 @@
               "RelativeToolTip": "Connex.DataAccess\\Migrations\\20241017211104_changeSlider.cs",
               "ViewState": "AQIAACgAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T21:11:04.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T21:11:04.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 52,
               "Title": "Language.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Core\\Entities\\Language.cs",
               "RelativeDocumentMoniker": "Connex.Core\\Entities\\Language.cs",
@@ -765,12 +1076,11 @@
               "RelativeToolTip": "Connex.Core\\Entities\\Language.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T20:21:53.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T20:21:53.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 94,
               "Title": "20241017204850_AddedLanguagesAndSeedData.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Migrations\\20241017204850_AddedLanguagesAndSeedData.cs",
               "RelativeDocumentMoniker": "Connex.DataAccess\\Migrations\\20241017204850_AddedLanguagesAndSeedData.cs",
@@ -778,12 +1088,11 @@
               "RelativeToolTip": "Connex.DataAccess\\Migrations\\20241017204850_AddedLanguagesAndSeedData.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAQwCwAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T20:48:51.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T20:48:51.116Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 53,
               "Title": "LanguageConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Configurations\\LanguageConfiguration.cs",
               "RelativeDocumentMoniker": "Connex.DataAccess\\Configurations\\LanguageConfiguration.cs",
@@ -791,12 +1100,11 @@
               "RelativeToolTip": "Connex.DataAccess\\Configurations\\LanguageConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T20:23:09.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T20:23:09.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 55,
               "Title": "AccountService.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Implementations\\AccountService.cs",
               "RelativeDocumentMoniker": "Connex.Business\\Services\\Implementations\\AccountService.cs",
@@ -804,12 +1112,11 @@
               "RelativeToolTip": "Connex.Business\\Services\\Implementations\\AccountService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAALQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T13:24:40.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T13:24:40.943Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 51,
               "Title": "SliderConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Configurations\\SliderConfiguration.cs",
               "RelativeDocumentMoniker": "Connex.DataAccess\\Configurations\\SliderConfiguration.cs",
@@ -817,12 +1124,11 @@
               "RelativeToolTip": "Connex.DataAccess\\Configurations\\SliderConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T08:26:37.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T08:26:37.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 59,
               "Title": "AppUserAutoMapper.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\AutoMappers\\AppUserAutoMapper.cs",
               "RelativeDocumentMoniker": "Connex.Business\\AutoMappers\\AppUserAutoMapper.cs",
@@ -834,7 +1140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 62,
               "Title": "InvalidInpuException.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Exceptions\\InvalidInpuException.cs",
               "RelativeDocumentMoniker": "Connex.Business\\Exceptions\\InvalidInpuException.cs",
@@ -846,7 +1152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 61,
               "Title": "IBaseException.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Exceptions\\Common\\IBaseException.cs",
               "RelativeDocumentMoniker": "Connex.Business\\Exceptions\\Common\\IBaseException.cs",
@@ -858,7 +1164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 60,
               "Title": "VerifyEmailDto.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\UserDtos\\VerifyEmailDto.cs",
               "RelativeDocumentMoniker": "Connex.Business\\Dtos\\UserDtos\\VerifyEmailDto.cs",
@@ -870,7 +1176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 58,
               "Title": "UserGetDto.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\UserDtos\\UserGetDto.cs",
               "RelativeDocumentMoniker": "Connex.Business\\Dtos\\UserDtos\\UserGetDto.cs",
@@ -882,7 +1188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 56,
               "Title": "UserChangeRoleDto.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\UserDtos\\UserChangeRoleDto.cs",
               "RelativeDocumentMoniker": "Connex.Business\\Dtos\\UserDtos\\UserChangeRoleDto.cs",
@@ -894,7 +1200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 57,
               "Title": "IAccountService.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Abstractions\\IAccountService.cs",
               "RelativeDocumentMoniker": "Connex.Business\\Services\\Abstractions\\IAccountService.cs",
@@ -906,7 +1212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 54,
               "Title": "ConfirmEmailBody.html",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\StaticFiles\\ConfirmEmailBody.html",
               "RelativeDocumentMoniker": "Connex.Business\\StaticFiles\\ConfirmEmailBody.html",
@@ -914,12 +1220,11 @@
               "RelativeToolTip": "Connex.Business\\StaticFiles\\ConfirmEmailBody.html",
               "ViewState": "AQIAACQAAAAAAAAAAAAAADUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-17T14:40:23.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T14:40:23.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 64,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -931,7 +1236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 67,
               "Title": "DbContextInitalizer.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\DataInitalizers\\DbContextInitalizer.cs",
               "RelativeDocumentMoniker": "Connex.DataAccess\\DataInitalizers\\DbContextInitalizer.cs",
@@ -943,7 +1248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 65,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Program.cs",
               "RelativeDocumentMoniker": "Connex.Presentation\\Program.cs",
@@ -955,7 +1260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 63,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\UserDtos\\LoginDto.cs",
               "RelativeDocumentMoniker": "Connex.Business\\Dtos\\UserDtos\\LoginDto.cs",
@@ -967,7 +1272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 68,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Implementations\\EmailService.cs",
               "RelativeDocumentMoniker": "Connex.Business\\Services\\Implementations\\EmailService.cs",
@@ -979,7 +1284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 66,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Core\\Entities\\AppUser.cs",
               "RelativeDocumentMoniker": "Connex.Core\\Entities\\AppUser.cs",
@@ -991,7 +1296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 69,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "Connex.Presentation\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
@@ -1003,7 +1308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 70,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Abstractions\\IEmailService.cs",
               "RelativeDocumentMoniker": "Connex.Business\\Services\\Abstractions\\IEmailService.cs",
@@ -1015,7 +1320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 71,
               "Title": "EmailSendDto.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\EmailDtos\\EmailSendDto.cs",
               "RelativeDocumentMoniker": "Connex.Business\\Dtos\\EmailDtos\\EmailSendDto.cs",
@@ -1027,7 +1332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 72,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\UserDtos\\RegisterDto.cs",
               "RelativeDocumentMoniker": "Connex.Business\\Dtos\\UserDtos\\RegisterDto.cs",
@@ -1039,7 +1344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 73,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Connex.Presentation\\Controllers\\AccountController.cs",
@@ -1051,7 +1356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 75,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Connex.Presentation\\Areas\\Admin\\Views\\_ViewStart.cshtml",
@@ -1063,7 +1368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 76,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Areas\\Admin\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "Connex.Presentation\\Areas\\Admin\\Controllers\\DashboardController.cs",
@@ -1075,19 +1380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "SettingService.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Implementations\\SettingService.cs",
-              "RelativeDocumentMoniker": "Connex.Business\\Services\\Implementations\\SettingService.cs",
-              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Implementations\\SettingService.cs",
-              "RelativeToolTip": "Connex.Business\\Services\\Implementations\\SettingService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T10:37:14.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 77,
               "Title": "SettingCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\SettingDtos\\SettingCreateDto.cs",
               "RelativeDocumentMoniker": "Connex.Business\\Dtos\\SettingDtos\\SettingCreateDto.cs",
@@ -1099,19 +1392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "ISettingService.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Abstractions\\ISettingService.cs",
-              "RelativeDocumentMoniker": "Connex.Business\\Services\\Abstractions\\ISettingService.cs",
-              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Abstractions\\ISettingService.cs",
-              "RelativeToolTip": "Connex.Business\\Services\\Abstractions\\ISettingService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T10:37:02.532Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 74,
               "Title": "20241015162656_AddedIdentity.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Migrations\\20241015162656_AddedIdentity.cs",
               "RelativeDocumentMoniker": "Connex.DataAccess\\Migrations\\20241015162656_AddedIdentity.cs",
@@ -1123,7 +1404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 78,
               "Title": "SettingAutoMapper.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\AutoMappers\\SettingAutoMapper.cs",
               "RelativeDocumentMoniker": "Connex.Business\\AutoMappers\\SettingAutoMapper.cs",
@@ -1135,19 +1416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "DataAccessServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\ServiceRegistrations\\DataAccessServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Connex.DataAccess\\ServiceRegistrations\\DataAccessServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\ServiceRegistrations\\DataAccessServiceRegistration.cs",
-              "RelativeToolTip": "Connex.DataAccess\\ServiceRegistrations\\DataAccessServiceRegistration.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAEBVwBYAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T07:57:36.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 79,
               "Title": "ExtensionMethods.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\Extensions\\ExtensionMethods.cs",
               "RelativeDocumentMoniker": "Connex.Presentation\\Extensions\\ExtensionMethods.cs",
@@ -1159,7 +1428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 80,
               "Title": "SettingConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Configurations\\SettingConfiguration.cs",
               "RelativeDocumentMoniker": "Connex.DataAccess\\Configurations\\SettingConfiguration.cs",
@@ -1171,7 +1440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 81,
               "Title": "Connex.Business.csproj",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Connex.Business.csproj",
               "RelativeDocumentMoniker": "Connex.Business\\Connex.Business.csproj",
@@ -1179,36 +1448,11 @@
               "RelativeToolTip": "Connex.Business\\Connex.Business.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-15T10:30:00.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T10:30:00.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "SeedDataHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Helpers\\SeedDataHelper.cs",
-              "RelativeDocumentMoniker": "Connex.DataAccess\\Helpers\\SeedDataHelper.cs",
-              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Helpers\\SeedDataHelper.cs",
-              "RelativeToolTip": "Connex.DataAccess\\Helpers\\SeedDataHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T16:30:03.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "CustomIdentityErrorDescriber.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Helpers\\CustomIdentityErrorDescriber.cs",
-              "RelativeDocumentMoniker": "Connex.DataAccess\\Helpers\\CustomIdentityErrorDescriber.cs",
-              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Helpers\\CustomIdentityErrorDescriber.cs",
-              "RelativeToolTip": "Connex.DataAccess\\Helpers\\CustomIdentityErrorDescriber.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T16:20:19.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 82,
               "Title": "Connex.DataAccess.csproj",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Connex.DataAccess.csproj",
               "RelativeDocumentMoniker": "Connex.DataAccess\\Connex.DataAccess.csproj",
@@ -1216,24 +1460,11 @@
               "RelativeToolTip": "Connex.DataAccess\\Connex.DataAccess.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-15T10:11:37.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T10:11:37.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "GlobalUsings.cs",
-              "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\GlobalUsings.cs",
-              "RelativeDocumentMoniker": "Connex.Business\\GlobalUsings.cs",
-              "ToolTip": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\GlobalUsings.cs",
-              "RelativeToolTip": "Connex.Business\\GlobalUsings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T10:04:20.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 83,
               "Title": "ICloudinaryService.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Services\\Abstractions\\ICloudinaryService.cs",
               "RelativeDocumentMoniker": "Connex.Business\\Services\\Abstractions\\ICloudinaryService.cs",
@@ -1245,7 +1476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 84,
               "Title": "FileValidator.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Extensions\\FileValidator.cs",
               "RelativeDocumentMoniker": "Connex.Business\\Extensions\\FileValidator.cs",
@@ -1257,7 +1488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 85,
               "Title": "IDto.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Business\\Dtos\\Common\\IDto.cs",
               "RelativeDocumentMoniker": "Connex.Business\\Dtos\\Common\\IDto.cs",
@@ -1269,7 +1500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 89,
               "Title": "20241015084415_AddedSlidersAndSettings.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Migrations\\20241015084415_AddedSlidersAndSettings.cs",
               "RelativeDocumentMoniker": "Connex.DataAccess\\Migrations\\20241015084415_AddedSlidersAndSettings.cs",
@@ -1281,7 +1512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 88,
               "Title": "ISliderRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Repositories\\Abstractions\\ISliderRepository.cs",
               "RelativeDocumentMoniker": "Connex.DataAccess\\Repositories\\Abstractions\\ISliderRepository.cs",
@@ -1293,7 +1524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 87,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "Connex.DataAccess\\GlobalUsings.cs",
@@ -1305,7 +1536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 86,
               "Title": "ISettingRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Repositories\\Abstractions\\ISettingRepository.cs",
               "RelativeDocumentMoniker": "Connex.DataAccess\\Repositories\\Abstractions\\ISettingRepository.cs",
@@ -1317,7 +1548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 91,
               "Title": "20241015080655_Init.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.DataAccess\\Migrations\\20241015080655_Init.cs",
               "RelativeDocumentMoniker": "Connex.DataAccess\\Migrations\\20241015080655_Init.cs",
@@ -1329,7 +1560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 90,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Core\\Entities\\Common\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Connex.Core\\Entities\\Common\\BaseEntity.cs",
