@@ -167,6 +167,58 @@ namespace Connex.DataAccess.Migrations
                     b.ToTable("Partners");
                 });
 
+            modelBuilder.Entity("Connex.Core.Entities.Service", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ImagePath")
+                        .IsRequired()
+                        .HasMaxLength(1024)
+                        .HasColumnType("nvarchar(1024)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Services");
+                });
+
+            modelBuilder.Entity("Connex.Core.Entities.ServiceDetail", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<int>("LanguageId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(64)
+                        .HasColumnType("nvarchar(64)");
+
+                    b.Property<int>("ServiceId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ServiceId");
+
+                    b.HasIndex("LanguageId", "ServiceId")
+                        .IsUnique();
+
+                    b.ToTable("ServiceDetails");
+                });
+
             modelBuilder.Entity("Connex.Core.Entities.Setting", b =>
                 {
                     b.Property<int>("Id")
@@ -387,6 +439,25 @@ namespace Connex.DataAccess.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Connex.Core.Entities.ServiceDetail", b =>
+                {
+                    b.HasOne("Connex.Core.Entities.Language", "Language")
+                        .WithMany("ServiceDetails")
+                        .HasForeignKey("LanguageId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Connex.Core.Entities.Service", "Service")
+                        .WithMany("ServiceDetails")
+                        .HasForeignKey("ServiceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Language");
+
+                    b.Navigation("Service");
+                });
+
             modelBuilder.Entity("Connex.Core.Entities.SliderDetail", b =>
                 {
                     b.HasOne("Connex.Core.Entities.Language", "Language")
@@ -459,7 +530,14 @@ namespace Connex.DataAccess.Migrations
 
             modelBuilder.Entity("Connex.Core.Entities.Language", b =>
                 {
+                    b.Navigation("ServiceDetails");
+
                     b.Navigation("SliderDetails");
+                });
+
+            modelBuilder.Entity("Connex.Core.Entities.Service", b =>
+                {
+                    b.Navigation("ServiceDetails");
                 });
 
             modelBuilder.Entity("Connex.Core.Entities.Slider", b =>

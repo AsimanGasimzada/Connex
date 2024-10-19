@@ -23,11 +23,7 @@ public class Program
 
         await app.InitDatabaseAsync();
 
-        if (!app.Environment.IsDevelopment())
-        {
-            app.UseExceptionHandler("/Home/Error");
-            app.UseHsts();
-        }
+        app.UseMiddleware<GlobalExceptionHandler>();
 
         app.UseHttpsRedirection();
         app.UseStaticFiles();

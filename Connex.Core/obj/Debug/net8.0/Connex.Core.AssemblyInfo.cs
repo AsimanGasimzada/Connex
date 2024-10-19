@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Connex.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62c350c6f7bb2d5cf01f68accc336e8a688bb720")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cccab178d0be5435a1e9f6ff9a116f49459be8d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Connex.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Connex.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

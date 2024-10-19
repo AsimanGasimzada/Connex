@@ -7,8 +7,6 @@ public class SliderConfiguration : IEntityTypeConfiguration<Slider>
 {
     public void Configure(EntityTypeBuilder<Slider> builder)
     {
-       
         builder.Property(x => x.ImagePath).IsRequired().HasMaxLength(1024);
-
     }
 }

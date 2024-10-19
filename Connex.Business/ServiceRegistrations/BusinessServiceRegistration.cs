@@ -24,6 +24,7 @@ public static class BusinessServiceRegistration
         services.AddScoped<ICloudinaryService, CloudinaryService>();
         services.AddScoped<IEmailService, EmailService>();
         services.AddScoped<IAccountService, AccountService>();
+        services.AddScoped<IServiceService, ServiceService>();
 
         services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
         services.AddHttpContextAccessor();
