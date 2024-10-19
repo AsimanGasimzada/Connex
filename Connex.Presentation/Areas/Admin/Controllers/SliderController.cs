@@ -3,18 +3,19 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Connex.Presentation.Areas.Admin.Controllers;
 [Area("Admin")]
+[AutoValidateAntiforgeryToken]
 public class SliderController : Controller
 {
-    private readonly ISliderService _sliderService;
+    private readonly ISliderService _service;
 
     public SliderController(ISliderService sliderService)
     {
-        _sliderService = sliderService;
+        _service = sliderService;
     }
 
     public async Task<IActionResult> Index()
     {
-        var sliders = await _sliderService.GetAllAsync();
+        var sliders = await _service.GetAllAsync();
 
         return View(sliders);
     }
@@ -27,7 +28,7 @@ public class SliderController : Controller
     [HttpPost]
     public async Task<IActionResult> Create(SliderCreateDto dto)
     {
-        var result = await _sliderService.CreateAsync(dto, ModelState);
+        var result = await _service.CreateAsync(dto, ModelState);
 
         if (result is false)
             return View(dto);
@@ -38,14 +39,14 @@ public class SliderController : Controller
 
     public async Task<IActionResult> Delete(int id)
     {
-        await _sliderService.DeleteAsync(id);
+        await _service.DeleteAsync(id);
 
         return RedirectToAction(nameof(Index));
     }
 
     public async Task<IActionResult> Update(int id)
     {
-        var result = await _sliderService.GetUpdatedSliderAsync(id);
+        var result = await _service.GetUpdatedDtoAsync(id);
 
         if (result is null)
             return NotFound();
@@ -56,7 +57,7 @@ public class SliderController : Controller
     [HttpPost]
     public async Task<IActionResult> Update(SliderUpdateDto dto)
     {
-        var result = await _sliderService.UpdateAsync(dto, ModelState);
+        var result = await _service.UpdateAsync(dto, ModelState);
 
 
         if (result is false)

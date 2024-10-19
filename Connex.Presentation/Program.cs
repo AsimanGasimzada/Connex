@@ -10,7 +10,6 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        // Add services to the container
         builder.Services.AddControllersWithViews();
 
         builder.Services.AddDataAccessServices(builder.Configuration);
@@ -24,14 +23,13 @@ public class Program
         }
         else
         {
-            app.UseExceptionHandler("/Home/Error"); // Default error handler for MVC
+            app.UseExceptionHandler("/Home/Error");
             app.UseHsts();
         }
 
         await app.InitDatabaseAsync();
 
-        // Register global exception handler middleware
-        app.UseMiddleware<GlobalExceptionHandler>();
+        //app.UseMiddleware<GlobalExceptionHandler>();
 
         app.UseHttpsRedirection();
         app.UseStaticFiles();

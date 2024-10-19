@@ -91,7 +91,7 @@ public class ServiceService : IServiceService
         return dtos;
     }
 
-    public async Task<ServiceGetDto> GetByIdAsync(int id, Languages language = Languages.Azerbaijan)
+    public async Task<ServiceGetDto> GetAsync(int id, Languages language = Languages.Azerbaijan)
     {
         _checkLanguageId(ref language);
 
@@ -105,7 +105,7 @@ public class ServiceService : IServiceService
         return dto;
     }
 
-    public async Task<ServiceUpdateDto> GetUpdatedServiceAsync(int id)
+    public async Task<ServiceUpdateDto> GetUpdatedDtoAsync(int id)
     {
         var service = await _repository.GetAsync(id, x => x.Include(x => x.ServiceDetails));
 

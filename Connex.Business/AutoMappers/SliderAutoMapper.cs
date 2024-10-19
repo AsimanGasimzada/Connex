@@ -7,7 +7,7 @@ public class SliderAutoMapper:Profile
     public SliderAutoMapper()
     {
         CreateMap<Slider, SliderCreateDto>().ReverseMap();
-        CreateMap<Slider, SliderUpdateDto>().ReverseMap();
+        CreateMap<Slider, SliderUpdateDto>().ReverseMap().ForMember(x=>x.ImagePath,x=>x.Ignore());
 
         CreateMap<Slider, SliderGetDto>()
               .ForMember(dest => dest.Title, opt => opt.MapFrom(src => src.SliderDetails.FirstOrDefault()!.Title))

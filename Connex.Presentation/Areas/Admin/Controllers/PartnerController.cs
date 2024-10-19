@@ -4,18 +4,19 @@ using NuGet.Protocol;
 
 namespace Connex.Presentation.Areas.Admin.Controllers;
 [Area("Admin")]
+[AutoValidateAntiforgeryToken]
 public class PartnerController : Controller
 {
-    private readonly IPartnerService _partnerService;
+    private readonly IPartnerService _service;
 
     public PartnerController(IPartnerService partnerService)
     {
-        _partnerService = partnerService;
+        _service = partnerService;
     }
 
     public async Task<IActionResult> Index()
     {
-        var partners = await _partnerService.GetAllAsync();
+        var partners = await _service.GetAllAsync();
 
         return View(partners);
     }
@@ -27,7 +28,7 @@ public class PartnerController : Controller
     [HttpPost]
     public async Task<IActionResult> Create(PartnerCreateDto dto)
     {
-        var result = await _partnerService.CreateAsync(dto, ModelState);
+        var result = await _service.CreateAsync(dto, ModelState);
 
         if (result is false)
             return View(dto);
@@ -38,7 +39,7 @@ public class PartnerController : Controller
 
     public async Task<IActionResult> Update(int id)
     {
-        var result = await _partnerService.GetUpdatedPartnerAsync(id);
+        var result = await _service.GetUpdatedDtoAsync(id);
 
         return View(result);
     }
@@ -46,7 +47,7 @@ public class PartnerController : Controller
     [HttpPost]
     public async Task<IActionResult> Update(PartnerUpdateDto dto)
     {
-        var result=await _partnerService.UpdateAsync(dto,ModelState);
+        var result=await _service.UpdateAsync(dto,ModelState);
 
         if(result is false)
             return View(dto);
@@ -56,7 +57,7 @@ public class PartnerController : Controller
 
     public async Task<IActionResult> Delete(int id)
     {
-        await _partnerService.DeleteAsync(id);
+        await _service.DeleteAsync(id);
 
         return RedirectToAction(nameof(Index));
     }

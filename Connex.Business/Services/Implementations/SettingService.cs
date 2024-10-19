@@ -77,7 +77,7 @@ public class SettingService : ISettingService
         return dto;
     }
 
-    public async Task<SettingUpdateDto> GetUpdatedSettingAsync(int id)
+    public async Task<SettingUpdateDto> GetUpdatedDtoAsync(int id)
     {
         var setting = await _repository.GetAsync(id);
 

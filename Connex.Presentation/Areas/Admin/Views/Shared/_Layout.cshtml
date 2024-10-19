@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="~/assets/vendors/datatables.net-bs5/dataTables.bootstrap5.css">
     <link rel="stylesheet" href="~/assets/vendors/ti-icons/css/themify-icons.css">
     <link rel="stylesheet" type="text/css" href="~/assets/js/select.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.ckeditor.com/ckeditor5/43.2.0/ckeditor5.css">
+
     <link rel="stylesheet" href="sweetalert2.min.css">
 
     <!-- End plugin css for this page -->
@@ -169,12 +171,12 @@
                     confirmButtonColor: '#3085d6',
                     cancelButtonColor: '#d33',
                     confirmButtonText: 'Əminəm, sil!',
-                    cancelButtonText:'Ləğv et'
+                    cancelButtonText: 'Ləğv et'
                 }).then((result) => {
                     if (result.isConfirmed) {
                         // fetch(btn.href)
                         // btn.parentElement.parentElement.remove();  //you need to change the order number of the element
-                         window.location.href = btn.href
+                        window.location.href = btn.href
                     }
                 })
             })
@@ -182,6 +184,17 @@
 
 
     </script>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "ckeditor5": "https://cdn.ckeditor.com/ckeditor5/43.2.0/ckeditor5.js",
+                "ckeditor5/": "https://cdn.ckeditor.com/ckeditor5/43.2.0/"
+            }
+        }
+    </script>
+
+
     <script src="~/assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
@@ -205,5 +218,6 @@
 
     <!-- <script src="~/assets/js/Chart.roundedBarCharts.js"></script> -->
     <!-- End custom js for this page-->
+    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

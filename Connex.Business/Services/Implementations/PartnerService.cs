@@ -1,6 +1,4 @@
-﻿
-using AutoMapper;
-using Connex.Business.Exceptions;
+﻿using AutoMapper;
 using Connex.Business.Extensions;
 using Microsoft.EntityFrameworkCore;
 
@@ -70,7 +68,7 @@ public class PartnerService : IPartnerService
         return dtos;
     }
 
-    public async Task<PartnerGetDto> GetByIdAsync(int id)
+    public async Task<PartnerGetDto> GetAsync(int id)
     {
         var partner = await _repository.GetAsync(id);
 
@@ -82,7 +80,7 @@ public class PartnerService : IPartnerService
         return dto;
     }
 
-    public async Task<PartnerUpdateDto> GetUpdatedPartnerAsync(int id)
+    public async Task<PartnerUpdateDto> GetUpdatedDtoAsync(int id)
     {
         var partner = await _repository.GetAsync(id);
 

@@ -3,9 +3,9 @@ using System.Net;
 
 namespace Connex.Business.Exceptions;
 
-public class InvalidInpuException:Exception,IBaseException
+public class InvalidInputException:Exception,IBaseException
 {
-    public InvalidInpuException(string message="Invalid Input Exception"):base(message)
+    public InvalidInputException(string message="Invalid Input Exception"):base(message)
     {
         
     }

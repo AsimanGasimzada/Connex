@@ -24,6 +24,8 @@ public class AppDbContext : IdentityDbContext<AppUser>
     public DbSet<SliderDetail> SliderDetails { get; set; } = null!;
     public DbSet<Language> Languages { get; set; } = null!;
     public DbSet<Partner> Partners { get; set; } = null!;
+    public DbSet<Project> Projects { get; set; } = null!;
+    public DbSet<ProjectDetail> ProjectDetails { get; set; } = null!;
     public DbSet<Service> Services { get; set; } = null!;
     public DbSet<ServiceDetail> ServiceDetails { get; set; } = null!;
 }

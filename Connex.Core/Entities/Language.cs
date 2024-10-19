@@ -7,5 +7,7 @@ public class Language:BaseEntity
     public bool IsDefault { get; set; } = false;
     public ICollection<SliderDetail> SliderDetails { get; set; } = new List<SliderDetail>();
     public ICollection<ServiceDetail> ServiceDetails { get; set; } = new List<ServiceDetail>();
+    public ICollection<ProjectDetail> ProjectDetails { get; set; } = new List<ProjectDetail>();
+
 
 }

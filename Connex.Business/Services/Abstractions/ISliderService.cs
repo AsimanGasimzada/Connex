@@ -1,13 +1,5 @@
-﻿using Connex.Core.Enums;
+﻿namespace Connex.Business.Services.Abstractions;
 
-namespace Connex.Business.Services.Abstractions;
-
-public interface ISliderService
+public interface ISliderService : IService<SliderCreateDto, SliderUpdateDto>,IGetServiceWithLanguage<SliderGetDto>
 {
-    Task<bool> CreateAsync(SliderCreateDto dto, ModelStateDictionary ModelState);
-    Task<bool> UpdateAsync(SliderUpdateDto dto, ModelStateDictionary ModelState);
-    Task<SliderUpdateDto> GetUpdatedSliderAsync(int id);
-    Task DeleteAsync(int id);
-    Task<SliderGetDto> GetAsync(int id, Languages language = Languages.Azerbaijan);
-    Task<List<SliderGetDto>> GetAllAsync(Languages language = Languages.Azerbaijan);
 }

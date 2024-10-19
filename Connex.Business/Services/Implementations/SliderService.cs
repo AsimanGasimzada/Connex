@@ -109,7 +109,7 @@ public class SliderService : ISliderService
         return dto;
     }
 
-    public async Task<SliderUpdateDto> GetUpdatedSliderAsync(int id)
+    public async Task<SliderUpdateDto> GetUpdatedDtoAsync(int id)
     {
         var slider = await _repository.GetAsync(id, x => x.Include(x => x.SliderDetails));
 
@@ -183,32 +183,32 @@ public class SliderService : ISliderService
         return true;
     }
 
-    private void _checkLanguageId(ref Languages language)
-    {
-        foreach (var l in Enum.GetNames(typeof(Languages)))
+        private void _checkLanguageId(ref Languages language)
         {
-            if (language.ToString() == l)
-                return;
+            foreach (var l in Enum.GetNames(typeof(Languages)))
+            {
+                if (language.ToString() == l)
+                    return;
+            }
+
+            language = Languages.Azerbaijan;
+        }
+        private bool _checkLanguageId(int id)
+        {
+            foreach (var l in Enum.GetValues(typeof(Languages)))
+            {
+                if (id == (int)l)
+                    return true;
+            }
+
+            return false;
         }
 
-        language = Languages.Azerbaijan;
-    }
-    private bool _checkLanguageId(int id)
-    {
-        foreach (var l in Enum.GetValues(typeof(Languages)))
+
+
+        private Func<IQueryable<Slider>, IIncludableQueryable<Slider, object>> _getIncludeFunc(Languages language)
         {
-            if (id == (int)l)
-                return true;
+
+            return x => x.Include(x => x.SliderDetails.Where(x => x.LanguageId == (int)language)).ThenInclude(x => x.Language);
         }
-
-        return false;
-    }
-
-
-
-    private Func<IQueryable<Slider>, IIncludableQueryable<Slider, object>> _getIncludeFunc(Languages language)
-    {
-
-        return x => x.Include(x => x.SliderDetails.Where(x => x.LanguageId == (int)language)).ThenInclude(x => x.Language);
-    }
 }

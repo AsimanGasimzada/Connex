@@ -126,13 +126,13 @@ public class AccountService : IAccountService
     public async Task<bool> VerifyEmailAsync(VerifyEmailDto dto, ModelStateDictionary ModelState)
     {
         if (!ModelState.IsValid)
-            throw new InvalidInpuException("Gözlənilməz xəta baş verdi yenidən sınayın.");
+            throw new InvalidInputException("Gözlənilməz xəta baş verdi yenidən sınayın.");
 
 
         var user = await _userManager.FindByEmailAsync(dto.Email);
 
         if (user is null)
-            throw new InvalidInpuException("Gözlənilməz xəta baş verdi yenidən sınayın.");
+            throw new InvalidInputException("Gözlənilməz xəta baş verdi yenidən sınayın.");
 
         var result = await _userManager.ConfirmEmailAsync(user, dto.Token);
 
@@ -140,7 +140,7 @@ public class AccountService : IAccountService
         if (!result.Succeeded)
         {
             await _sendConfirmEmailToken(user);
-            throw new InvalidInpuException("Gözlənilməz xəta baş verdi yenidən sınayın.Təsdiqləmə linki yenidən göndərilmişdir.");
+            throw new InvalidInputException("Gözlənilməz xəta baş verdi yenidən sınayın.Təsdiqləmə linki yenidən göndərilmişdir.");
         }
 
 
@@ -169,12 +169,12 @@ public class AccountService : IAccountService
         var user = await _userManager.FindByIdAsync(dto.UserId);
 
         if (user is null)
-            throw new InvalidInpuException("Gözlənilməz xəta baş verdi yenidən sınayın.Təsdiqləmə linki yenidən göndərilmişdir.");
+            throw new InvalidInputException("Gözlənilməz xəta baş verdi yenidən sınayın.Təsdiqləmə linki yenidən göndərilmişdir.");
 
         var role = Enum.GetNames(typeof(IdentityRoles)).ToList().FirstOrDefault(x => x.ToLower() == dto.RoleName.ToLower());
 
         if (string.IsNullOrWhiteSpace(role))
-            throw new InvalidInpuException("Gözlənilməz xəta baş verdi yenidən sınayın.Təsdiqləmə linki yenidən göndərilmişdir.");
+            throw new InvalidInputException("Gözlənilməz xəta baş verdi yenidən sınayın.Təsdiqləmə linki yenidən göndərilmişdir.");
 
         await _userManager.AddToRoleAsync(user, role);
 

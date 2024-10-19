@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Connex.Presentation.Areas.Admin.Controllers;
 [Area("Admin")]
+[AutoValidateAntiforgeryToken]
 public class ServiceController : Controller
 {
     private readonly IServiceService _service;
@@ -37,7 +38,7 @@ public class ServiceController : Controller
 
     public async Task<IActionResult> Update(int id)
     {
-        var service = await _service.GetUpdatedServiceAsync(id);
+        var service = await _service.GetUpdatedDtoAsync(id);
 
         return View(service);
     }
