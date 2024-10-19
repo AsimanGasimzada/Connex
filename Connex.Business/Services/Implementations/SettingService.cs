@@ -99,7 +99,7 @@ public class SettingService : ISettingService
         if (existSetting is null)
             throw new NotFoundException($"{dto.Id}-bu idli məlumat mövcud deyildir.");
 
-        existSetting = _mapper.Map(dto, existSetting);
+        existSetting.Value = dto.Value;
 
         _repository.Update(existSetting);
         await _repository.SaveChangesAsync();

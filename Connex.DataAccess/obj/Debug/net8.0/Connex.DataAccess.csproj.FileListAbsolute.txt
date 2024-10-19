@@ -9,10 +9,10 @@ C:\Users\Asiman\source\repos\Connex\Connex.DataAccess\obj\Debug\net8.0\Connex.Da
 C:\Users\Asiman\source\repos\Connex\Connex.DataAccess\obj\Debug\net8.0\Connex.DataAccess.AssemblyInfoInputs.cache
 C:\Users\Asiman\source\repos\Connex\Connex.DataAccess\obj\Debug\net8.0\Connex.DataAccess.AssemblyInfo.cs
 C:\Users\Asiman\source\repos\Connex\Connex.DataAccess\obj\Debug\net8.0\Connex.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Asiman\source\repos\Connex\Connex.DataAccess\obj\Debug\net8.0\Connex.DataAccess.sourcelink.json
 C:\Users\Asiman\source\repos\Connex\Connex.DataAccess\obj\Debug\net8.0\Connex.D.22D01FB8.Up2Date
 C:\Users\Asiman\source\repos\Connex\Connex.DataAccess\obj\Debug\net8.0\Connex.DataAccess.dll
 C:\Users\Asiman\source\repos\Connex\Connex.DataAccess\obj\Debug\net8.0\refint\Connex.DataAccess.dll
 C:\Users\Asiman\source\repos\Connex\Connex.DataAccess\obj\Debug\net8.0\Connex.DataAccess.pdb
 C:\Users\Asiman\source\repos\Connex\Connex.DataAccess\obj\Debug\net8.0\Connex.DataAccess.genruntimeconfig.cache
 C:\Users\Asiman\source\repos\Connex\Connex.DataAccess\obj\Debug\net8.0\ref\Connex.DataAccess.dll
-C:\Users\Asiman\source\repos\Connex\Connex.DataAccess\obj\Debug\net8.0\Connex.DataAccess.sourcelink.json

@@ -1,13 +1,13 @@
 C:\Users\Asiman\source\repos\Connex\Connex.Core\bin\Debug\net8.0\Connex.Core.deps.json
 C:\Users\Asiman\source\repos\Connex\Connex.Core\bin\Debug\net8.0\Connex.Core.dll
 C:\Users\Asiman\source\repos\Connex\Connex.Core\bin\Debug\net8.0\Connex.Core.pdb
+C:\Users\Asiman\source\repos\Connex\Connex.Core\obj\Debug\net8.0\Connex.Core.csproj.AssemblyReference.cache
 C:\Users\Asiman\source\repos\Connex\Connex.Core\obj\Debug\net8.0\Connex.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Asiman\source\repos\Connex\Connex.Core\obj\Debug\net8.0\Connex.Core.AssemblyInfoInputs.cache
 C:\Users\Asiman\source\repos\Connex\Connex.Core\obj\Debug\net8.0\Connex.Core.AssemblyInfo.cs
 C:\Users\Asiman\source\repos\Connex\Connex.Core\obj\Debug\net8.0\Connex.Core.csproj.CoreCompileInputs.cache
+C:\Users\Asiman\source\repos\Connex\Connex.Core\obj\Debug\net8.0\Connex.Core.sourcelink.json
 C:\Users\Asiman\source\repos\Connex\Connex.Core\obj\Debug\net8.0\Connex.Core.dll
 C:\Users\Asiman\source\repos\Connex\Connex.Core\obj\Debug\net8.0\refint\Connex.Core.dll
 C:\Users\Asiman\source\repos\Connex\Connex.Core\obj\Debug\net8.0\Connex.Core.pdb
 C:\Users\Asiman\source\repos\Connex\Connex.Core\obj\Debug\net8.0\ref\Connex.Core.dll
-C:\Users\Asiman\source\repos\Connex\Connex.Core\obj\Debug\net8.0\Connex.Core.sourcelink.json
-C:\Users\Asiman\source\repos\Connex\Connex.Core\obj\Debug\net8.0\Connex.Core.csproj.AssemblyReference.cache

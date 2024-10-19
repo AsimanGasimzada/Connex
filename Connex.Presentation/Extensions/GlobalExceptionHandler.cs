@@ -1,8 +1,10 @@
 ﻿using Connex.Business.Dtos;
 using Connex.Business.Exceptions.Common;
 using Newtonsoft.Json;
+using System.Net;
 
 namespace Connex.Presentation.Extensions;
+
 public class GlobalExceptionHandler
 {
     private readonly RequestDelegate _next;
@@ -10,9 +12,7 @@ public class GlobalExceptionHandler
     public GlobalExceptionHandler(RequestDelegate next)
     {
         _next = next;
-
     }
-
 
     public async Task InvokeAsync(HttpContext context)
     {
@@ -22,25 +22,58 @@ public class GlobalExceptionHandler
         }
         catch (Exception e)
         {
-            ErrorDto dto = new ErrorDto()
-            {
-                Message = "Bilinməyən xəta baş verdi,server ilə əlaqə saxlayın.",
-                StatusCode = 500
-            };
-
-            if (e is IBaseException)
-            {
-                dto.StatusCode = 404;
-                dto.Message = e.Message;
-            }
-
-            var json = JsonConvert.SerializeObject(e);
-
-            context.Response.ContentType = "application/json";
-            context.Response.Redirect($"/Home/Error?error={json}");
+            await HandleExceptionAsync(context, e);
         }
     }
+    private async Task HandleExceptionAsync(HttpContext context, Exception exception)
+    {
+        var statusCode = HttpStatusCode.InternalServerError;
+        string errorName = "Xəta baş verdi";
+        string errorMessage = "Gözlənilməyən xəta baş verdi. Server ilə əlaqə saxlayın";
 
+        if (exception is KeyNotFoundException)
+        {
+            statusCode = HttpStatusCode.NotFound;
+        }
+        else if (exception is UnauthorizedAccessException)
+        {
+            statusCode = HttpStatusCode.Unauthorized;
+            errorMessage = "Sizin bu hissəyə əlçatanlığınıza icazə verilmir";
+            errorName = "Yanlış yerdəsiniz";
+        }
+        else if (exception is IBaseException e)
+        {
+            statusCode = e.StatusCode;
+            errorName = e.Name;
+            errorMessage = exception.Message;
+
+        }
+
+        context.Response.ContentType = "application/json";
+        context.Response.StatusCode = (int)statusCode;
+
+        var errorDto = new ErrorDto
+        {
+            StatusCode = context.Response.StatusCode,
+            Message = SanitizeErrorMessage(errorMessage),
+            Name = errorName
+        };
+
+        var result = JsonConvert.SerializeObject(errorDto);
+
+        if (context.Request.Headers["Accept"].ToString().Contains("application/json"))
+        {
+            await context.Response.WriteAsync(result);
+        }
+        else
+        {
+            var errorJson = JsonConvert.SerializeObject(errorDto);
+            var sanitizedJson = Uri.EscapeDataString(errorJson);
+
+            var errorPath = $"/Home/Error?json={sanitizedJson}";
+            context.Response.Redirect(errorPath);
+        }
+    }
 
     private string SanitizeErrorMessage(string errorMessage)
     {

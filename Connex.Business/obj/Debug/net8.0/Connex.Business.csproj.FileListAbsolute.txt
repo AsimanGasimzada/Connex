@@ -10,9 +10,9 @@ C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.Busi
 C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.Business.AssemblyInfoInputs.cache
 C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.Business.AssemblyInfo.cs
 C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.Business.csproj.CoreCompileInputs.cache
+C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.Business.sourcelink.json
 C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.B.D357B5D1.Up2Date
 C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.Business.dll
 C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\refint\Connex.Business.dll
 C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.Business.pdb
 C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\ref\Connex.Business.dll
-C:\Users\Asiman\source\repos\Connex\Connex.Business\obj\Debug\net8.0\Connex.Business.sourcelink.json
