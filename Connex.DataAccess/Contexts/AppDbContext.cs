@@ -26,6 +26,7 @@ public class AppDbContext : IdentityDbContext<AppUser>
     public DbSet<Project> Projects { get; set; } = null!;
     public DbSet<ProjectDetail> ProjectDetails { get; set; } = null!;
     public DbSet<Setting> Settings { get; set; } = null!;
+    public DbSet<Subscriber> Subscribers { get; set; } = null!;
     public DbSet<Slider> Sliders { get; set; } = null!;
     public DbSet<SliderDetail> SliderDetails { get; set; } = null!;
     public DbSet<Service> Services { get; set; } = null!;

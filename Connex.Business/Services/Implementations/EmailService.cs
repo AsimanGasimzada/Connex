@@ -27,7 +27,27 @@ public class EmailService : IEmailService
 
         email.Subject = dto.Subject;
 
+
+
+
         var builder = new BodyBuilder();
+
+
+        if (dto.Attachments != null && dto.Attachments.Count > 0)
+        {
+            foreach (var attachment in dto.Attachments)
+            {
+                if (attachment.Length > 0)
+                {
+                    using (var ms = new MemoryStream())
+                    {
+                        await attachment.CopyToAsync(ms);
+                        builder.Attachments.Add(attachment.FileName, ms.ToArray(), ContentType.Parse(attachment.ContentType));
+                    }
+                }
+            }
+        }
+
         builder.HtmlBody = dto.Body;
         email.Body = builder.ToMessageBody();
 

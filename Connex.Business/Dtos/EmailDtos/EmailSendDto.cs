@@ -9,3 +9,5 @@ public class EmailSendDto
     public string Body { get; set; } = null!;
     public List<IFormFile> Attachments { get; set; } = new();
 }
+
+

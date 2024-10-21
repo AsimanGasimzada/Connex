@@ -22,10 +22,11 @@ public static class BusinessServiceRegistration
         services.AddScoped<IPartnerService, PartnerService>();
         services.AddScoped<ISliderService, SliderService>();
         services.AddScoped<ISettingService, SettingService>();
+        services.AddScoped<IServiceService, ServiceService>();
+        services.AddScoped<ISubscriberService, SubscriberService>();
         services.AddScoped<ICloudinaryService, CloudinaryService>();
         services.AddScoped<IEmailService, EmailService>();
         services.AddScoped<IAccountService, AccountService>();
-        services.AddScoped<IServiceService, ServiceService>();
         services.AddScoped<IProjectService, ProjectService>();
 
         services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
