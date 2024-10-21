@@ -22,6 +22,66 @@ namespace Connex.DataAccess.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Connex.Core.Entities.About", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("BGImagePath")
+                        .IsRequired()
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("ImagePath")
+                        .IsRequired()
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<int>("OrderNo")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Abouts");
+                });
+
+            modelBuilder.Entity("Connex.Core.Entities.AboutDetail", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AboutId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(9196)
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("LanguageId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(64)
+                        .HasColumnType("nvarchar(64)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AboutId");
+
+                    b.HasIndex("LanguageId", "AboutId")
+                        .IsUnique();
+
+                    b.ToTable("AboutDetails");
+                });
+
             modelBuilder.Entity("Connex.Core.Entities.AppUser", b =>
                 {
                     b.Property<string>("Id")
@@ -195,7 +255,7 @@ namespace Connex.DataAccess.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasMaxLength(4098)
+                        .HasMaxLength(9196)
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("LanguageId")
@@ -535,6 +595,25 @@ namespace Connex.DataAccess.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Connex.Core.Entities.AboutDetail", b =>
+                {
+                    b.HasOne("Connex.Core.Entities.About", "About")
+                        .WithMany("AboutDetails")
+                        .HasForeignKey("AboutId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Connex.Core.Entities.Language", "Language")
+                        .WithMany("AboutDetails")
+                        .HasForeignKey("LanguageId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("About");
+
+                    b.Navigation("Language");
+                });
+
             modelBuilder.Entity("Connex.Core.Entities.ProjectDetail", b =>
                 {
                     b.HasOne("Connex.Core.Entities.Language", "Language")
@@ -643,8 +722,15 @@ namespace Connex.DataAccess.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Connex.Core.Entities.About", b =>
+                {
+                    b.Navigation("AboutDetails");
+                });
+
             modelBuilder.Entity("Connex.Core.Entities.Language", b =>
                 {
+                    b.Navigation("AboutDetails");
+
                     b.Navigation("ProjectDetails");
 
                     b.Navigation("ServiceDetails");

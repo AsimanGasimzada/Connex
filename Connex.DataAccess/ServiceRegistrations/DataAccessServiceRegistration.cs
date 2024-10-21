@@ -46,6 +46,8 @@ public static class DataAccessServiceRegistration
 
     private static void _addRepositories(IServiceCollection services)
     {
+
+        services.AddScoped<IAboutRepository, AboutRepository>();
         services.AddScoped<ISliderRepository, SliderRepository>();
         services.AddScoped<ISettingRepository, SettingRepository>();
         services.AddScoped<IServiceRepository, ServiceRepository>();

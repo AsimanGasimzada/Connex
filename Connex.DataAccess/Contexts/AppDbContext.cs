@@ -9,7 +9,6 @@ public class AppDbContext : IdentityDbContext<AppUser>
 {
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
     {
-
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -19,13 +18,16 @@ public class AppDbContext : IdentityDbContext<AppUser>
         modelBuilder.AddSeedData();
     }
 
-    public DbSet<Setting> Settings { get; set; } = null!;
-    public DbSet<Slider> Sliders { get; set; } = null!;
-    public DbSet<SliderDetail> SliderDetails { get; set; } = null!;
+
+    public DbSet<About> Abouts { get; set; } = null!;
+    public DbSet<AboutDetail> AboutDetails { get; set; } = null!;
     public DbSet<Language> Languages { get; set; } = null!;
     public DbSet<Partner> Partners { get; set; } = null!;
     public DbSet<Project> Projects { get; set; } = null!;
     public DbSet<ProjectDetail> ProjectDetails { get; set; } = null!;
+    public DbSet<Setting> Settings { get; set; } = null!;
+    public DbSet<Slider> Sliders { get; set; } = null!;
+    public DbSet<SliderDetail> SliderDetails { get; set; } = null!;
     public DbSet<Service> Services { get; set; } = null!;
     public DbSet<ServiceDetail> ServiceDetails { get; set; } = null!;
 }
