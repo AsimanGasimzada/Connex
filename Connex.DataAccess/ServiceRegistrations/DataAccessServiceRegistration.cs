@@ -48,10 +48,13 @@ public static class DataAccessServiceRegistration
     {
 
         services.AddScoped<IAboutRepository, AboutRepository>();
+        services.AddScoped<ICertificateRepository, CertificateRepository>();
+        services.AddScoped<IFeatureRepository, FeatureRepository>();
         services.AddScoped<ISliderRepository, SliderRepository>();
         services.AddScoped<ISettingRepository, SettingRepository>();
         services.AddScoped<IServiceRepository, ServiceRepository>();
         services.AddScoped<ISubscriberRepository, SubscriberRepository>();
+        services.AddScoped<ILanguageRepository, LanguageRepository>();
         services.AddScoped<IPartnerRepository, PartnerRepository>();
         services.AddScoped<IProjectRepository, ProjectRepository>();
     }

@@ -19,6 +19,7 @@ public static class BusinessServiceRegistration
     private static void _addServices(IServiceCollection services)
     {
         services.AddScoped<IAboutService, AboutService>();
+        services.AddScoped<ICertificateService, CertificateService>();
         services.AddScoped<IPartnerService, PartnerService>();
         services.AddScoped<ISliderService, SliderService>();
         services.AddScoped<ISettingService, SettingService>();
@@ -28,6 +29,10 @@ public static class BusinessServiceRegistration
         services.AddScoped<IEmailService, EmailService>();
         services.AddScoped<IAccountService, AccountService>();
         services.AddScoped<IProjectService, ProjectService>();
+        services.AddScoped<ILanguageService, LanguageService>();
+        services.AddScoped<IFeatureService, FeatureService>();
+
+        services.AddScoped<IHomeService, HomeService>();
 
         services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
         services.AddHttpContextAccessor();

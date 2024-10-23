@@ -1,0 +1,97 @@
+﻿@model Dictionary<string,string>
+
+<!-- info section -->
+<section  class="info_section layout_padding2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-3 info_col">
+                <div class="info_contact">
+                    <h4 id="footerAdress">
+                        Adres
+                    </h4>
+                    <div class="contact_link_box">
+                        <a href="">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <span>
+                                @Model["Unvan"]
+                            </span>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <span>
+                                @Model["Telefon2"]
+                            </span>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <span>
+                                @Model["Email"]
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="info_social">
+                    <a href="@Model["FacebookLink"]">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="@Model["LinkedinLink"]">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="@Model["InstagramLink"]">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 info_col">
+                <div class="info_detail">
+                    <h4 id="footerInfo">
+                        Info
+                    </h4>
+                    <p id="footerInfoArea">
+                        Connex şirkəti 2009-cu ildə Aqşin Hüseynov tərəfindən qurulub, müştərilərin xidmətinə verilmişdir.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-2 mx-auto info_col">
+                <div class="info_link_box">
+                    <h4 id="footerLink">
+                        Səhifələr
+                    </h4>
+                    <div class="info_links">
+                        <a class="active" href="index.html">
+                            <span id="footerHome">Əsas səhifə</span>
+                        </a>
+                        <a class="" href="about.html">
+                            <span id="footerAbout">Haqqımızda</span>
+                        </a>
+                        <a class="" href="service.html">
+                            <span id="footerServices">Xidmətlər</span>
+                        </a>
+                        <a class="" href="why.html">
+                            <span id="footerProjects">Layihələr</span>
+                        </a>
+                        <a class="" href="team.html">
+                            <span id="footerContact">Əlaqə</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 info_col ">
+                <h4>
+                    <span id="footerSubscribe">Abonəlik</span>
+                </h4>
+
+             <partial name="_subscriberPartial" model="new SubscriberCreateDto()"></partial>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end info section -->
+<section class="footer_section">
+    <div class="container">
+        <p>
+            &copy; <span id="displayYear"></span> <span id="footerAllRights">Bütün hüquqlar Connex MMC tərəfindən qorunur</span>
+        </p>
+    </div>
+</section>

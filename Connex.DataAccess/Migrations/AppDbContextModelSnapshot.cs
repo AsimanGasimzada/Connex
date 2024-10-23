@@ -147,6 +147,76 @@ namespace Connex.DataAccess.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("Connex.Core.Entities.Certificate", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ImagePath")
+                        .IsRequired()
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Certificates");
+                });
+
+            modelBuilder.Entity("Connex.Core.Entities.Feature", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ImagePath")
+                        .IsRequired()
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Features");
+                });
+
+            modelBuilder.Entity("Connex.Core.Entities.FeatureDetail", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(1024)
+                        .HasColumnType("nvarchar(1024)");
+
+                    b.Property<int>("FeatureId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("LanguageId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(64)
+                        .HasColumnType("nvarchar(64)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FeatureId");
+
+                    b.HasIndex("LanguageId", "FeatureId")
+                        .IsUnique();
+
+                    b.ToTable("FeatureDetails");
+                });
+
             modelBuilder.Entity("Connex.Core.Entities.Language", b =>
                 {
                     b.Property<int>("Id")
@@ -180,22 +250,22 @@ namespace Connex.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            Code = "AZE",
-                            ImagePath = "https://res.cloudinary.com/dlilcwizx/image/upload/v1729197779/rc1flc3kendub8xvmo8a.png",
+                            Code = "AZ",
+                            ImagePath = "https://res.cloudinary.com/dlilcwizx/image/upload/v1729631254/connex.az/qqaf2nprjoze4ovdya9o.png",
                             IsDefault = true
                         },
                         new
                         {
                             Id = 2,
-                            Code = "ENG",
-                            ImagePath = "https://res.cloudinary.com/dlilcwizx/image/upload/v1729197779/ull5rtwaatdqi1qhuidn.png",
+                            Code = "EN",
+                            ImagePath = "https://res.cloudinary.com/dlilcwizx/image/upload/v1729631254/connex.az/cxoiku5tmvxcoxw6tj4m.png",
                             IsDefault = false
                         },
                         new
                         {
                             Id = 3,
-                            Code = "RUS",
-                            ImagePath = "https://res.cloudinary.com/dlilcwizx/image/upload/v1729197779/n4p898pyw6gnxopu5hrc.png",
+                            Code = "RU",
+                            ImagePath = "https://res.cloudinary.com/dlilcwizx/image/upload/v1729631254/connex.az/gnw43upf9w6t2xkaxvka.png",
                             IsDefault = false
                         });
                 });
@@ -398,6 +468,18 @@ namespace Connex.DataAccess.Migrations
                             Id = 7,
                             Key = "LinkedinLink",
                             Value = "linkedin.com"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Key = "Unvan",
+                            Value = "Baku"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Key = "Email",
+                            Value = "info@connex.az"
                         });
                 });
 
@@ -635,6 +717,25 @@ namespace Connex.DataAccess.Migrations
                     b.Navigation("Language");
                 });
 
+            modelBuilder.Entity("Connex.Core.Entities.FeatureDetail", b =>
+                {
+                    b.HasOne("Connex.Core.Entities.Feature", "Feature")
+                        .WithMany("FeatureDetails")
+                        .HasForeignKey("FeatureId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Connex.Core.Entities.Language", "Language")
+                        .WithMany("FeatureDetails")
+                        .HasForeignKey("LanguageId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Feature");
+
+                    b.Navigation("Language");
+                });
+
             modelBuilder.Entity("Connex.Core.Entities.ProjectDetail", b =>
                 {
                     b.HasOne("Connex.Core.Entities.Language", "Language")
@@ -748,9 +849,16 @@ namespace Connex.DataAccess.Migrations
                     b.Navigation("AboutDetails");
                 });
 
+            modelBuilder.Entity("Connex.Core.Entities.Feature", b =>
+                {
+                    b.Navigation("FeatureDetails");
+                });
+
             modelBuilder.Entity("Connex.Core.Entities.Language", b =>
                 {
                     b.Navigation("AboutDetails");
+
+                    b.Navigation("FeatureDetails");
 
                     b.Navigation("ProjectDetails");
 

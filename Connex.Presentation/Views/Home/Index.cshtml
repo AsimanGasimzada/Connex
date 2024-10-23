@@ -1,8 +1,280 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model HomeDto
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!-- slider section -->
+<section class="slider_section ">
+    <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            @for (int i = 0; i < Model.Sliders.Count; i++)
+            {
+                var slider = Model.Sliders[i];
+
+                <div class="carousel-item @(i==0 ? "active" : "")">
+                    <div class="container ">
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <div class="detail-box">
+                                    <h1>
+                                        @slider.Title <br>
+                                        @slider.Subtitle
+                                    </h1>
+                                    <p>
+                                        @slider.Description
+                                    </p>
+                                    <div class="btn-box">
+                                        <a href="" class="btn1">
+                                            @slider.ButtonTitle
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="img-box">
+                                    <img src="@slider.ImagePath" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            }
+
+        </div>
+        <ol class="carousel-indicators">
+            @for (int i = 0; i < Model.Sliders.Count; i++)
+            {
+                <li data-target="#customCarousel1" data-slide-to="@i" class="@(i==0? "active":"")"></li>
+
+            }
+
+        </ol>
+    </div>
+
+</section>
+<!-- end slider section -->
+  </div>
+
+
+<!-- service section -->
+
+<section class="service_section layout_padding">
+    <div class="service_container">
+        <div class="container ">
+            <div class="heading_container heading_center">
+                <h2 id="ourServices">
+                    Our <span>Services</span>
+                </h2>
+                <p id="sliderSubtitle">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+                </p>
+            </div>
+            <div class="row">
+                @foreach (var service in Model.Services)
+                {
+                    <div class="col-md-4 ">
+                        <div class="box ">
+                            <div class="img-box">
+                                <img src="@service.ImagePath" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h5>
+                                    Currency Wallet
+                                </h5>
+                                <p>
+                                    @service.Description
+                                </p>
+                                <a href="">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+
+            </div>
+            <div class="btn-box">
+                <a href="" id="readMore">
+                    View All
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- end service section -->
+<!-- about section -->
+@if (Model.About is { })
+{
+
+    <section class="about_section layout_padding">
+        <div class="container  ">
+            <div class="heading_container heading_center">
+                <h2 id="aboutUs">
+                    About <span>Us</span>
+                </h2>
+                <p id="aboutDescription">
+                    Magni quod blanditiis non minus sed aut voluptatum illum quisquam aspernatur ullam vel beatae rerum ipsum voluptatibus
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="img-box">
+                        <img src="@Model.About.ImagePath" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="detail-box">
+                        <h3>
+                            @Model.About.Name
+                        </h3>
+                        <p>
+                            @Html.Raw(Model.About.Description)
+                        </p>
+
+                        <a href="">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+}
+<!-- end about section -->
+<!-- why section -->
+
+<section class="why_section layout_padding">
+    <div class="container">
+        <div class="heading_container heading_center">
+            <h2 id="whyChooseUs">
+                Why Choose <span>Us</span>
+            </h2>
+        </div>
+        <div class="why_container">
+            @foreach (var feature in Model.Features)
+            {
+                <div class="box">
+                    <div class="img-box">
+                        <img src="@feature.ImagePath" alt="@feature.Name">
+                    </div>
+                    <div class="detail-box">
+                        <h5>
+                            @feature.Name
+                        </h5>
+                        <p>
+                            @feature.Description
+                        </p>
+                    </div>
+                </div>
+
+            }
+
+        </div>
+
+    </div>
+</section>
+
+
+<section class="project_section">
+    <div class="container  ">
+        <div class="heading_container heading_center">
+            <h2 id="ourProjects">
+                Layihələrimiz
+            </h2>
+            <p id="ourProjectsDescription">
+                İşimizin peşəkarıyıq.
+            </p>
+        </div>
+        <div class="row">
+            <div class="dark">
+                <div class="container py-4">
+
+                    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+                                      centered-slides="true" autoplay-delay="4000" autoplay-disable-on-interaction="false">
+                        @foreach (var project in Model.Projects)
+                        {
+
+                            <swiper-slide>
+
+                                <article class="postcard dark blue">
+                                    <div class="postcard__img_link">
+                                        <img class="postcard__img" src="@project.ImagePath" alt="Image Title" />
+                                    </div>
+                                    <div class="postcard__text">
+                                        <h1 class="postcard__title blue"><div>@project.Name</div></h1>
+
+                                        <div class="postcard__bar"></div>
+                                        <div class="postcard__preview-txt">@Html.Raw(project.Description)</div>
+                                        <ul class="postcard__tagbox">
+                                            <li style="margin:0 auto ;" class="tag__item play blue">
+                                                <a href="#">Read More</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </article>
+                            </swiper-slide>
+
+                        }
+
+
+                    </swiper-container>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<!-- end why section -->
+
+
+
+<section class="why_section layout_padding">
+    <div class="container">
+        <div class="heading_container heading_center">
+            <h2 id="certificates">
+                Sertifikat və <span>Lisenziyalarımız</span>
+            </h2>
+            <p id="certificatesDescription">
+                Peşəkarlıq bizim işimizdir.
+            </p>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="why_container">
+            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="3"
+                              space-between="30" free-mode="true">
+                @foreach (var certificate in Model.Certificates)
+                {
+                    <swiper-slide><img src="@certificate.ImagePath"/></swiper-slide>
+
+                }
+
+            </swiper-container>
+
+
+        </div>
+
+    </div>
+</section>
+
+@section Scripts {
+
+    <!-- Initialize Swiper -->
+    <script>
+        const progressCircle = document.querySelector(".autoplay-progress svg");
+        const progressContent = document.querySelector(".autoplay-progress span");
+
+        const swiperEl = document.querySelector("swiper-container");
+        swiperEl.addEventListener("autoplaytimeleft", (e) => {
+            const [swiper, time, progress] = e.detail;
+            progressCircle.style.setProperty("--progress", 1 - progress);
+            progressContent.textContent = `${Math.ceil(time / 50000)}s`;
+        });
+    </script>
+}

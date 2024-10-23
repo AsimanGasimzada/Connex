@@ -1,0 +1,10 @@
+﻿@model SubscriberCreateDto
+
+
+<form asp-action="AddSubscriber" asp-route-returnUrl="@Context.Request.Path.Value">
+    <input asp-for="EmailAddress" id="footerSubscribePlaceholder" required style="background:none !important;outline:none;" placeholder="Dəyişikliklərdən xəbərdar ol." />
+    <span asp-validation-for="EmailAddress" class="text-danger"></span>
+    <button type="submit" id="SubscribeInputBtn">
+        Abonə ol
+    </button>
+</form>

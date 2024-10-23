@@ -20,8 +20,10 @@ public static class SeedDataService
         Setting setting5 = new() { Id = 5, Key = "FacebookLink", Value = "fb.com" };
         Setting setting6 = new() { Id = 6, Key = "InstagramLink", Value = "instagram.com" };
         Setting setting7 = new() { Id = 7, Key = "LinkedinLink", Value = "linkedin.com" };
+        Setting setting8 = new() { Id = 8, Key = "Unvan", Value = "Baku" };
+        Setting setting9 = new() { Id = 9, Key = "Email", Value = "info@connex.az" };
 
-        List<Setting> settings = [setting1, setting2, setting3, setting4, setting5, setting6, setting7];
+        List<Setting> settings = [setting1, setting2, setting3, setting4, setting5, setting6, setting7, setting8, setting9];
 
         modelBuilder.Entity<Setting>().HasData(settings);
 
@@ -29,9 +31,9 @@ public static class SeedDataService
     private static void AddLanguages(this ModelBuilder modelBuilder)
     {
 
-        Language azerbaijanLanguage = new() { Id = 1, Code = "AZE", ImagePath = "https://res.cloudinary.com/dlilcwizx/image/upload/v1729197779/rc1flc3kendub8xvmo8a.png", IsDefault = true };
-        Language englishLanguage = new() { Id = 2, Code = "ENG", ImagePath = "https://res.cloudinary.com/dlilcwizx/image/upload/v1729197779/ull5rtwaatdqi1qhuidn.png", IsDefault = false };
-        Language russianLanguage = new() { Id = 3, Code = "RUS", ImagePath = "https://res.cloudinary.com/dlilcwizx/image/upload/v1729197779/n4p898pyw6gnxopu5hrc.png", IsDefault = false };
+        Language azerbaijanLanguage = new() { Id = 1, Code = "AZ", ImagePath = "https://res.cloudinary.com/dlilcwizx/image/upload/v1729631254/connex.az/qqaf2nprjoze4ovdya9o.png", IsDefault = true };
+        Language englishLanguage = new() { Id = 2, Code = "EN", ImagePath = "https://res.cloudinary.com/dlilcwizx/image/upload/v1729631254/connex.az/cxoiku5tmvxcoxw6tj4m.png", IsDefault = false };
+        Language russianLanguage = new() { Id = 3, Code = "RU", ImagePath = "https://res.cloudinary.com/dlilcwizx/image/upload/v1729631254/connex.az/gnw43upf9w6t2xkaxvka.png", IsDefault = false };
 
         List<Language> languages = [azerbaijanLanguage, englishLanguage, russianLanguage];
 

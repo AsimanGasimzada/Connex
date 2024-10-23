@@ -21,6 +21,9 @@ public class AppDbContext : IdentityDbContext<AppUser>
 
     public DbSet<About> Abouts { get; set; } = null!;
     public DbSet<AboutDetail> AboutDetails { get; set; } = null!;
+    public DbSet<Certificate> Certificates { get; set; } = null!;
+    public DbSet<Feature> Features { get; set; } = null!;
+    public DbSet<FeatureDetail> FeatureDetails { get; set; } = null!;
     public DbSet<Language> Languages { get; set; } = null!;
     public DbSet<Partner> Partners { get; set; } = null!;
     public DbSet<Project> Projects { get; set; } = null!;
