@@ -1,7 +1,12 @@
 ﻿@model Dictionary<string,string>
+@{
+    string currentLanguage = Context.Request.Query["lang"].ToString() ?? "az";
+    string currentController = ViewContext.RouteData.Values["controller"]?.ToString()?.ToLower() ?? "home";
 
+
+}
 <!-- info section -->
-<section  class="info_section layout_padding2">
+<section class="info_section layout_padding2">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-lg-3 info_col">
@@ -58,19 +63,19 @@
                         Səhifələr
                     </h4>
                     <div class="info_links">
-                        <a class="active" href="index.html">
+                        <a class="@(currentController == "home" ? "active" : "")" asp-action="index" asp-route-lang="@currentLanguage" asp-controller="Home">
                             <span id="footerHome">Əsas səhifə</span>
                         </a>
-                        <a class="" href="about.html">
+                        <a class="@(currentController == "about" ? "active" : "")" asp-action="index" asp-route-lang="@currentLanguage" asp-controller="About">
                             <span id="footerAbout">Haqqımızda</span>
                         </a>
-                        <a class="" href="service.html">
+                        <a class="@(currentController == "service" ? "active" : "")" asp-action="index" asp-route-lang="@currentLanguage" asp-controller="Service">
                             <span id="footerServices">Xidmətlər</span>
                         </a>
-                        <a class="" href="why.html">
+                        <a class="@(currentController == "project" ? "active" : "")" asp-action="index" asp-route-lang="@currentLanguage" asp-controller="Project">
                             <span id="footerProjects">Layihələr</span>
                         </a>
-                        <a class="" href="team.html">
+                        <a class="@(currentController == "contact" ? "active" : "")" asp-action="index" asp-route-lang="@currentLanguage" asp-controller="Contact">
                             <span id="footerContact">Əlaqə</span>
                         </a>
                     </div>
@@ -81,7 +86,7 @@
                     <span id="footerSubscribe">Abonəlik</span>
                 </h4>
 
-             <partial name="_subscriberPartial" model="new SubscriberCreateDto()"></partial>
+                <partial name="_subscriberPartial" model="new SubscriberCreateDto()"></partial>
 
             </div>
         </div>

@@ -10,7 +10,9 @@
         ourProjects: "Our <span>Projects</span>",
         ourProjectsDescription: "We are professionals in our work.",
         certificates: "Our Certifications and <span>Licenses</span>",
-        certificatesDescription: "Professionalism is our business"
+        certificatesDescription: "Professionalism is our business",
+        ReadMoreBtn: "Read More"
+
 
     },
     az: {
@@ -24,7 +26,8 @@
         ourProjects: "Layihələrimiz",
         ourProjectsDescription: "İşimizin peşəkarıyıq.",
         certificates: " Sertifikat və <span>Lisenziyalarımız</span>",
-        certificatesDescription: "Peşəkarlıq bizim işimizdir."
+        certificatesDescription: "Peşəkarlıq bizim işimizdir.",
+        ReadMoreBtn: "Daha çox"
 
     },
     ru: {
@@ -38,7 +41,8 @@
         ourProjects: "Наши <span>Проекты</span>",
         ourProjectsDescription: "Мы профессионалы своего дела.",
         certificates: "Наши сертификаты и <span>лицензии</span>",
-        certificatesDescription: "Профессионализм – наша работа"
+        certificatesDescription: "Профессионализм – наша работа",
+        ReadMoreBtn: "Читать далее"
     }
 };
 
@@ -66,3 +70,5 @@ document.getElementById("ourProjects").innerHTML = translation.ourProjects;
 document.getElementById("ourProjectsDescription").innerHTML = translation.ourProjectsDescription;
 document.getElementById("certificates").innerHTML = translation.certificates;
 document.getElementById("certificatesDescription").innerHTML = translation.certificatesDescription;
+document.querySelectorAll("#ReadMoreBtn").forEach(btn => btn.innerHTML = translation.ReadMoreBtn);
+

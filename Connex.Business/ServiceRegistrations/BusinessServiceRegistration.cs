@@ -33,6 +33,7 @@ public static class BusinessServiceRegistration
         services.AddScoped<IFeatureService, FeatureService>();
 
         services.AddScoped<IHomeService, HomeService>();
+        services.AddScoped<IContactService, ContactService>();
 
         services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
         services.AddHttpContextAccessor();

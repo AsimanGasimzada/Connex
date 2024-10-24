@@ -230,7 +230,7 @@ public class AboutService : IAboutService
         {
             string newBgImagePath = await _cloudinaryService.FileCreateAsync(dto.BGImage);
             await _cloudinaryService.FileDeleteAsync(existAbout.BGImagePath);
-            existAbout.ImagePath = newBgImagePath;
+            existAbout.BGImagePath = newBgImagePath;
         }
 
         _repository.Update(existAbout);

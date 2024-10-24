@@ -1,5 +1,463 @@
 ﻿@model HomeDto
+@{
+    string currentLanguage = Context.Request.Query["lang"].ToString() ?? "az";
 
+}
+
+<style>
+
+    .projectItems {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .projectItem {
+        max-width: 300px;
+        max-height: 300px !important;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+
+    .projectItemImage {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    .overflow-smn {
+        overflow: hidden !important;
+    }
+
+    .rel-y7r {
+        position: relative;
+        z-index: 1;
+    }
+
+    .overflow-smn {
+        overflow: hidden;
+    }
+
+    .no-mxv {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .no-mxv {
+        padding-bottom: 0 !important;
+    }
+
+
+
+
+
+    *,
+    :after,
+    :before {
+        box-sizing: border-box;
+    }
+
+
+
+    a {
+        text-decoration: underline;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a {
+        -o-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+    }
+
+    a {
+        outline: 0;
+    }
+
+    a {
+        color: var(--secondary-color);
+    }
+
+    .block-ttn {
+        display: block !important;
+    }
+
+    .hov-q8x {
+        -o-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+
+    a:hover {
+        color: #0a58ca;
+    }
+
+    a,
+    a:hover {
+        text-decoration: none;
+    }
+
+        a,
+        a:hover {
+            -o-transition: 0.3s;
+            -ms-transition: 0.3s;
+            -moz-transition: 0.3s;
+            -webkit-transition: 0.3s;
+            transition: 0.3s;
+        }
+
+            a,
+            a:hover {
+                color: var(--secondary-color);
+            }
+
+    .rounded-fl8 {
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+    }
+
+    .hov-q8x * {
+        -o-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+
+    .shadow-r3y {
+        -webkit-box-shadow: 0 10px 30px rgb(0 0 0 / 20%);
+        -moz-box-shadow: 0 10px 30px rgb(0 0 0 / 20%);
+        box-shadow: 0 10px 30px rgb(0 0 0 / 20%);
+    }
+
+    img {
+        vertical-align: middle;
+    }
+
+    img {
+        outline: 0;
+    }
+
+    .bottom-b4h {
+        bottom: 0 !important;
+    }
+
+    .start-dei {
+        left: 0 !important;
+    }
+
+    .w-ck3 {
+        width: 50% !important;
+    }
+
+    .abs-s59 {
+        position: absolute;
+        z-index: 1;
+    }
+
+    .w-ck3 {
+        width: 50%;
+    }
+
+    .hov-q8x:hover .hover-op-pvi {
+        opacity: 0;
+    }
+
+    .w-wag {
+        width: 100% !important;
+    }
+
+    .text-qim {
+        text-align: center !important;
+    }
+
+    .abs-382 {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .w-wag {
+        width: 100%;
+    }
+
+    .p-cs9 {
+        padding: 3rem !important;
+    }
+
+    .text-yy4 {
+        color: #fff !important;
+    }
+
+    .text-yy4 {
+        color: #fff;
+    }
+
+    .z-pwn {
+        z-index: 2;
+    }
+
+    .hover-op-6ya {
+        opacity: 0;
+    }
+
+    .hov-q8x:hover .hover-op-6ya {
+        opacity: 1;
+    }
+
+    .h-y6l {
+        height: 100% !important;
+    }
+
+    .bg-dark-op-k7j {
+        background: rgba(var(--bg-dark-1-rgb), 0.5);
+    }
+
+    .h-y6l {
+        height: 100%;
+    }
+
+    .img-6sn {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .hov-q8x:hover .hover-scale-1-mgi {
+        transform: scale(1.2);
+        background-color: rgba(0, 0, 0, 0.1);
+        opacity: 0.7;
+    }
+
+    h3 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    h3 {
+        font-size: calc(1.3rem + 0.6vw);
+    }
+
+
+
+    h3 {
+        margin-top: 0;
+        font-family: var(--title-font);
+        font-weight: var(--title-font-weight);
+        color: var(--title-font-color);
+    }
+
+    h3 {
+        font-size: 26px;
+        line-height: 1.4em;
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        margin-top: 0;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    /* These were inline style tags. Uses id+class to override almost everything */
+    #style-FEkxy.style-FEkxy {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-GVlAj.style-GVlAj {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-9HsDA.style-9HsDA {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-gRv62.style-gRv62 {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-iZjHy.style-iZjHy {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-xCDSy.style-xCDSy {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-InJhm.style-InJhm {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-HDRnV.style-HDRnV {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-inyzK.style-inyzK {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-vCVPf.style-vCVPf {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-Nsmo9.style-Nsmo9 {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-nMWaJ.style-nMWaJ {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-UCnsy.style-UCnsy {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-8KWio.style-8KWio {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-Px1zy.style-Px1zy {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-2LcSP.style-2LcSP {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-PbE9w.style-PbE9w {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-bPyCB.style-bPyCB {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-2JyTn.style-2JyTn {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-3T7sF.style-3T7sF {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-Ve33z.style-Ve33z {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-ZOglr.style-ZOglr {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-KTVCn.style-KTVCn {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-OKAkX.style-OKAkX {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-YwbrI.style-YwbrI {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-7CeTv.style-7CeTv {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-XBa9H.style-XBa9H {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-wnEaB.style-wnEaB {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-D1gV9.style-D1gV9 {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-EIegP.style-EIegP {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-FoqId.style-FoqId {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-RIvet.style-RIvet {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-XYvRp.style-XYvRp {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-QMxEH.style-QMxEH {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #style-RsodK.style-RsodK {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+</style>
 <!-- slider section -->
 <section class="slider_section ">
     <div id="customCarousel1" class="carousel slide" data-ride="carousel">
@@ -48,12 +506,9 @@
 
         </ol>
     </div>
-
 </section>
 <!-- end slider section -->
-  </div>
-
-
+    </div>
 <!-- service section -->
 
 <section class="service_section layout_padding">
@@ -67,33 +522,32 @@
                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
                 </p>
             </div>
-            <div class="row">
+            <div class="row d-flex flex-wrap">
+
                 @foreach (var service in Model.Services)
                 {
-                    <div class="col-md-4 ">
-                        <div class="box ">
-                            <div class="img-box">
-                                <img src="@service.ImagePath" alt="">
+                    <div class="col-md-4 d-flex">
+                        <div class="box flex-grow-1 d-flex flex-column" style="min-height:300px !important; word-break:break-all; overflow:hidden;">
+                            <div class="img-box" style="flex: 0 0 auto; width: 100%; height: 250px; position: relative; overflow: hidden;">
+                                <img src="@service.ImagePath" alt="" style="width: 100%; height: 100%; object-fit: cover;">
                             </div>
-                            <div class="detail-box">
-                                <h5>
-                                    Currency Wallet
+                            <div class="detail-box mt-auto" style="flex-grow: 1;">
+                                <h5 class="service-name" style="flex-grow: 1; display: flex; align-items: center;">
+                                    @service.Name
                                 </h5>
                                 <p>
-                                    @service.Description
+                                    @(service.Description.Length > 100 ? service.Description.Substring(0, 100) + "..." : service.Description)
                                 </p>
-                                <a href="">
-                                    Read More
-                                </a>
                             </div>
+
                         </div>
                     </div>
-
                 }
-
             </div>
+
+
             <div class="btn-box">
-                <a href="" id="readMore">
+                <a asp-action="Index" asp-controller="Service" asp-route-lang="@currentLanguage" id="readMore">
                     View All
                 </a>
             </div>
@@ -131,8 +585,8 @@
                             @Html.Raw(Model.About.Description)
                         </p>
 
-                        <a href="">
-                            Read More
+                        <a id="ReadMoreBtn" asp-action="Index" asp-controller="About" asp-route-lang="@currentLanguage">
+                            Daha çox
                         </a>
                     </div>
                 </div>
@@ -176,6 +630,8 @@
 </section>
 
 
+
+
 <section class="project_section">
     <div class="container  ">
         <div class="heading_container heading_center">
@@ -187,51 +643,87 @@
             </p>
         </div>
         <div class="row">
-            <div class="dark">
-                <div class="container py-4">
 
-                    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
-                                      centered-slides="true" autoplay-delay="4000" autoplay-disable-on-interaction="false">
-                        @foreach (var project in Model.Projects)
-                        {
 
-                            <swiper-slide>
 
-                                <article class="postcard dark blue">
-                                    <div class="postcard__img_link">
-                                        <img class="postcard__img" src="@project.ImagePath" alt="Image Title" />
+            <div class="row-gn7 g-5sb style-FEkxy projectItems" id="style-FEkxy">
+                @foreach (var project in Model.Projects)
+                {
+                    <div class="col-9kb col-w5e style-GVlAj projectItem" id="style-GVlAj">
+                        <div class="rel-y7r style-9HsDA" id="style-9HsDA">
+                            <a asp-action="Detail" asp-controller="Project" asp-route-id="@project.Id" asp-route-lang="@currentLanguage" class="block-ttn hov-q8x">
+                                <div class="rel-y7r overflow-smn rounded-fl8 shadow-r3y style-gRv62" id="style-gRv62">
+                                    <div class="abs-s59 start-dei w-wag hover-op-pvi abs-382 text-qim style-iZjHy" id="style-iZjHy">
+                                        <h3 class="text-yy4">@project.Name</h3>
                                     </div>
-                                    <div class="postcard__text">
-                                        <h1 class="postcard__title blue"><div>@project.Name</div></h1>
-
-                                        <div class="postcard__bar"></div>
-                                        <div class="postcard__preview-txt">@Html.Raw(project.Description)</div>
-                                        <ul class="postcard__tagbox">
-                                            <li style="margin:0 auto ;" class="tag__item play blue">
-                                                <a href="#">Read More</a>
-                                            </li>
-                                        </ul>
+                                    <div class="abs-s59 start-dei w-wag hover-op-6ya p-cs9 abs-382 z-pwn text-qim text-yy4 style-xCDSy" id="style-xCDSy">
+                                        <p class="no-mxv">@Html.Raw(project.Description.Length > 100 ? project.Description.Substring(0, 100) + "..." : project.Description)</p>
                                     </div>
-                                </article>
-                            </swiper-slide>
+                                    <div class="abs-s59 start-dei w-wag h-y6l bg-dark-op-k7j hover-op-6ya" style=""></div>
+                                    <img src="@project.ImagePath" class="img-6sn hover-scale-1-mgi projectItemImage" style="width: 100%; height: 250px; object-fit: cover;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
 
-                        }
 
 
-                    </swiper-container>
+                }
 
-                </div>
             </div>
+
+
+
+            <a class="btn" id="ReadMoreBtn" asp-action="Index" asp-controller="Project" asp-route-lang="@currentLanguage" style="background-color:#0081a6;color:#fff;margin:50px auto;padding:10px 15px;">Daha çox</a>
 
         </div>
     </div>
 
 </section>
 
+
+
+
+@*
+<section class="project_section">
+    <div class="container  ">
+        <div class="heading_container heading_center">
+            <h2 id="ourProjects">
+                Layihələrimiz
+            </h2>
+            <p id="ourProjectsDescription">
+                İşimizin peşəkarıyıq.
+            </p>
+        </div>
+        <div class="row">
+
+
+
+            <div class="card-section">
+                @foreach (var project in Model.Projects)
+                {
+
+                    <div class="card">
+                        <img src="@project.ImagePath" alt="Kart 1">
+                        <h3 class="cardTitle">@project.Name</h3>
+                        <p class="cardDesc">@Html.Raw(project.Description.Length > 150 ? project.Description.Substring(0, 150) + "..." : project.Description)</p>
+                        <button class="detail-button" id="ReadMoreBtn">Detail</button>
+                    </div>
+
+                }
+            </div>
+
+
+            <a class="btn" id="ReadMoreBtn" style="background-color:#fff;color:#00204a;margin:0 auto;">Daha çox</a>
+
+        </div>
+    </div>
+
+</section>
+ *@
+
+
 <!-- end why section -->
-
-
-
 <section class="why_section layout_padding">
     <div class="container">
         <div class="heading_container heading_center">
@@ -247,34 +739,149 @@
         <br />
         <br />
         <div class="why_container">
-            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="3"
-                              space-between="30" free-mode="true">
+            <swiper-container class="mySwiper2" pagination="true" pagination-clickable="true"
+                              space-between="30" free-mode="true" slides-per-view="3">
                 @foreach (var certificate in Model.Certificates)
                 {
-                    <swiper-slide><img src="@certificate.ImagePath"/></swiper-slide>
-
+                    <swiper-slide>
+                        <img src="@certificate.ImagePath" alt="Sertifikat" />
+                    </swiper-slide>
                 }
-
             </swiper-container>
-
-
         </div>
-
     </div>
 </section>
 
+<section style="background-color:white;">
+    @*       <section style="background-color:white;">
+    <swiper-container class="mySwiper" style="background-color:white;">
+    @foreach (var partner in Model.Partners)
+    {
+    <swiper-slide style="padding:0;background-color:white;">
+    <img src="@partner.ImagePath" alt="@partner.Name" style="width: 100%; height: 150px; object-fit: cover;" />
+    </swiper-slide>
+    }
+    </swiper-container>
+    </section> *@
+
+    <div class="partner-slider">
+        <div class="partner-slides">
+            @foreach (var partner in Model.Partners)
+            {
+                if (string.IsNullOrEmpty(partner.OfficialWebsite))
+                {
+
+                    <div class="partner-slide"><img src="@partner.ImagePath" alt="@partner.Name"></div>
+                }
+                else
+                {
+                    <div class="partner-slide"><a href="@partner.OfficialWebsite"><img src="@partner.ImagePath" alt="@partner.Name"></a></div>
+
+                }
+
+
+            }
+            <!-- Daha çox logo əlavə edin -->
+        </div>
+    </div>
+</section>
+
+<style>
+    .partner-slider {
+        overflow: hidden;
+        width: 100%; /* Responsive */
+    }
+
+    .partner-slides {
+        display: flex;
+        transition: transform 0.5s ease;
+    }
+
+    .partner-slide {
+        min-width: 25%; /* Ekrana 4 partnyor göstərmək üçün */
+        box-sizing: border-box; /* Padding və margin daxilində ölçüləri saxlayır */
+    }
+
+        .partner-slide img {
+            width: 100%; /* Şəkilləri tam genişlikdə göstərin */
+            height: 150px; /* Hündürlüyü 150px ilə məhdudlaşdırın */
+            object-fit: contain; /* Şəkillərin proporsiyasını qorumaq üçün */
+        }
+
+    /* Yeni: Son slayddan sonra görünən slaydlar üçün */
+    .partner-slides .partner-slide {
+        opacity: 1; /* Slaydların görünüşünü azaldır */
+        transition: opacity 0.5s ease; /* Opasiti keçidini yumuşaq edir */
+    }
+
+        .partner-slides .partner-slide.partner-active {
+            opacity: 1; /* Aktiv slayd tam görünür */
+        }
+</style>
+
+
+
+</section>
+
+
+
+
 @section Scripts {
+    <script src="~/js/indexRender.js"></script>
 
-    <!-- Initialize Swiper -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
     <script>
-        const progressCircle = document.querySelector(".autoplay-progress svg");
-        const progressContent = document.querySelector(".autoplay-progress span");
+        let index = 0;
+        const totalSlides = document.querySelectorAll('.partner-slide').length;
 
-        const swiperEl = document.querySelector("swiper-container");
-        swiperEl.addEventListener("autoplaytimeleft", (e) => {
-            const [swiper, time, progress] = e.detail;
-            progressCircle.style.setProperty("--progress", 1 - progress);
-            progressContent.textContent = `${Math.ceil(time / 50000)}s`;
-        });
+        // İlk slaydın sonuna gizli slaydlar əlavə edirik
+        function cloneSlides() {
+            const slidesContainer = document.querySelector('.partner-slides');
+            const firstSlide = slidesContainer.firstElementChild.cloneNode(true);
+            const lastSlide = slidesContainer.lastElementChild.cloneNode(true);
+
+            slidesContainer.appendChild(firstSlide);
+            slidesContainer.insertBefore(lastSlide, slidesContainer.firstChild);
+        }
+
+        cloneSlides();
+
+        function showSlides() {
+            const slides = document.querySelector('.partner-slides');
+
+            index++;
+            if (index >= totalSlides + 1) {
+                index = 1; // Gizli slaydın ardından birinci slayda keçir
+                slides.style.transition = 'none'; // Keçid olmadan sürüşdür
+                slides.style.transform = `translateX(-${index * 25}%)`; // Birinci slayda sürüşdür
+            } else {
+                slides.style.transition = 'transform 0.5s ease'; // Keçid effektini bərpa et
+                slides.style.transform = `translateX(-${index * 25}%)`; // Hər slaydın görünüşünü tənzimləyirik
+            }
+        }
+
+        // Hər 3 saniyədən bir slaydı dəyişmək üçün
+        setInterval(showSlides, 3000);
+
+        // Geri scroll funksiyası
+        function scrollBack() {
+            const slides = document.querySelector('.partner-slides');
+            if (index === totalSlides) {
+                index = 0; // Son slayddan sonra birinci slayda keçir
+                slides.style.transition = 'none'; // Keçid olmadan sürüşdür
+                slides.style.transform = `translateX(0%)`; // Birinci slayda sürüşdür
+            }
+        }
+
+        // Hər 3 saniyədən bir slaydı dəyişmək üçün
+        setInterval(() => {
+            showSlides();
+            scrollBack();
+        }, 3000);
     </script>
+
 }
+
