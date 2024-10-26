@@ -7,7 +7,7 @@ const languageData = {
         headerProjectsText: "Layihələr",
         headerContactText: "Əlaqə",
 
-        footerAdressText: "Adres",
+        footerAdressText: "İnfo",
         footerInfoText: "Məlumatlar",
         footerLinkText: "Səhifələr",
         footerHomeText: "Əsas səhifə",
@@ -18,8 +18,8 @@ const languageData = {
         footerSubscribeText: "Abonəlik",
         footerSubscribePlaceholder: "Dəyişikliklərdən xəbərdar ol.",
         footerAllRights: "Bütün hüquqlar Connex MMC tərəfindən qorunur",
-        footerInfo: "Connex şirkəti 2021-cu ildə Aqşin Hüseynov tərəfindən qurulub, müştərilərin xidmətinə verilmişdir.",
-        subscribeInputBtn: "Abonə ol"
+        footerInfo: "Connex şirkəti 2022-ci ildə Aqşin Hüseynov tərəfindən qurulub, müştərilərin xidmətinə verilmişdir.",
+        subscribeInputBtn: "Abunə ol"
     },
     en: {
         headerHomeText: "Home",
@@ -28,7 +28,7 @@ const languageData = {
         headerProjectsText: "Projects",
         headerContactText: "Contact",
 
-        footerAdressText: "Address",
+        footerAdressText: "Info",
         footerInfoText: "Info",
         footerLinkText: "Pages",
         footerHomeText: "Home",
@@ -39,7 +39,7 @@ const languageData = {
         footerSubscribeText: "Subscribe",
         footerSubscribePlaceholder: "Stay updated with our news.",
         footerAllRights: "All rights reserved by Connex LLC",
-        footerInfo: "Connex was established in 2021 by Akshin Huseynov and has been serving customers ever since.",
+        footerInfo: "Connex was established in 2022 by Akshin Huseynov and has been serving customers ever since.",
         subscribeInputBtn: "Subscribe"
     },
     ru: {
@@ -49,7 +49,7 @@ const languageData = {
         headerProjectsText: "Проекты",
         headerContactText: "Контакт",
 
-        footerAdressText: "Адрес",
+        footerAdressText: "Инфо",
         footerInfoText: "Информация",
         footerLinkText: "Страницы",
         footerHomeText: "Главная",
@@ -60,7 +60,7 @@ const languageData = {
         footerSubscribeText: "Подписка",
         footerSubscribePlaceholder: "Оставайтесь в курсе наших новостей.",
         footerAllRights: "Все права защищены компанией Connex LLC.",
-        footerInfo: "Компания Connex была основана в 2021 году Акшиным Гусейновым и с тех пор обслуживает клиентов.",
+        footerInfo: "Компания Connex была основана в 2022 году Акшиным Гусейновым и с тех пор обслуживает клиентов.",
         subscribeInputBtn: "Подписаться"
 
 

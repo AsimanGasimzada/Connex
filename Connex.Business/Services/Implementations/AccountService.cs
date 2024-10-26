@@ -55,7 +55,7 @@ public class AccountService : IAccountService
             return false;
         }
 
-        var result = await _signInManager.PasswordSignInAsync(user, dto.Password, true, true);
+        var result = await _signInManager.PasswordSignInAsync(user, dto.Password, dto.RememberMe, true);
 
         if (!result.Succeeded)
         {

@@ -4,8 +4,8 @@ namespace Connex.Presentation.Controllers;
 
 public class AccountController : Controller
 {
-    public IActionResult Index()
+    public IActionResult Login(string? returnUrl)
     {
-        return View();
+        return RedirectToAction("Login", "Account", new { area = "admin", returnUrl = returnUrl });
     }
 }

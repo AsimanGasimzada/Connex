@@ -1,8 +1,10 @@
 ﻿using Connex.Business.Dtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Connex.Presentation.Areas.Admin.Controllers;
 [Area("Admin")]
+[Authorize(Roles = "Admin")]
 [AutoValidateAntiforgeryToken]
 public class SliderController : Controller
 {

@@ -37,6 +37,10 @@
 </head>
 
 <body>
+    <div class="loader-overlay">
+        <span class="loader"></span>
+    </div>
+
 
     <div class="hero_area">
 
@@ -74,6 +78,25 @@
 </script>
 <!-- custom js -->
 <script type="text/javascript" src="~/js/custom.js"></script>
+
+<script>
+    function showLoader() {
+        document.querySelector('.loader-overlay').style.visibility = 'visible';
+    }
+
+    function hideLoader() {
+        document.querySelector('.loader-overlay').style.visibility = 'hidden';
+    }
+
+    // Example usage:
+    // Show the loader
+    showLoader();
+
+    // Hide it after 3 seconds (for example)
+    setTimeout(hideLoader, 1000);
+
+
+</script>
 <!-- Google Map -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
 

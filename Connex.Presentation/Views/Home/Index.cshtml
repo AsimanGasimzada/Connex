@@ -536,7 +536,7 @@
                                     @service.Name
                                 </h5>
                                 <p>
-                                    @(service.Description.Length > 100 ? service.Description.Substring(0, 100) + "..." : service.Description)
+                                    @Html.Raw(service.Description.Length > 100 ? service.Description.Substring(0, 100) + "<a href='/service'>...</a>" : service.Description)
                                 </p>
                             </div>
 
@@ -740,7 +740,7 @@
         <br />
         <div class="why_container">
             <swiper-container class="mySwiper2" pagination="true" pagination-clickable="true"
-                              space-between="30" free-mode="true" slides-per-view="3">
+                              space-between="30" free-mode="true" slides-per-view="3" centered-slides="true">
                 @foreach (var certificate in Model.Certificates)
                 {
                     <swiper-slide>

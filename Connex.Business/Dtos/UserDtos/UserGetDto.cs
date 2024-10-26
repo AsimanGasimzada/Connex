@@ -1,6 +1,4 @@
-﻿using Org.BouncyCastle.Utilities.IO.Pem;
-
-namespace Connex.Business.Dtos;
+﻿namespace Connex.Business.Dtos;
 
 public class UserGetDto : IDto
 {

@@ -22,8 +22,9 @@ public static class SeedDataService
         Setting setting7 = new() { Id = 7, Key = "LinkedinLink", Value = "linkedin.com" };
         Setting setting8 = new() { Id = 8, Key = "Unvan", Value = "Baku" };
         Setting setting9 = new() { Id = 9, Key = "Email", Value = "info@connex.az" };
+        Setting setting10 = new() { Id = 10, Key = "TiktokLink", Value = "tiktok" };
 
-        List<Setting> settings = [setting1, setting2, setting3, setting4, setting5, setting6, setting7, setting8, setting9];
+        List<Setting> settings = [setting1, setting2, setting3, setting4, setting5, setting6, setting7, setting8, setting9, setting10];
 
         modelBuilder.Entity<Setting>().HasData(settings);
 

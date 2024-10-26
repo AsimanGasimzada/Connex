@@ -1,6 +1,7 @@
 using Connex.Business.ServiceRegistrations;
 using Connex.DataAccess.ServiceRegistrations;
 using Connex.Presentation.Extensions;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace Connex.Presentation;
 
@@ -11,6 +12,10 @@ public class Program
         var builder = WebApplication.CreateBuilder(args);
 
         builder.Services.AddControllersWithViews();
+        builder.Services.ConfigureApplicationCookie(c =>
+        {
+            c.LoginPath = $"/Admin/Account/Login/{c.ReturnUrlParameter}";
+        });
 
         builder.Services.AddDataAccessServices(builder.Configuration);
         builder.Services.AddBusinessServices();
@@ -27,6 +32,7 @@ public class Program
             app.UseHsts();
         }
 
+
         await app.InitDatabaseAsync();
 
         //app.UseMiddleware<GlobalExceptionHandler>();
@@ -36,6 +42,7 @@ public class Program
 
         app.UseRouting();
 
+        app.UseAuthentication();
         app.UseAuthorization();
 
         app.MapControllerRoute(
