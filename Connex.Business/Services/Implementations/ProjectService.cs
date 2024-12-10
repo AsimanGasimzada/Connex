@@ -11,12 +11,14 @@ public class ProjectService : IProjectService
     private readonly IProjectRepository _repository;
     private readonly ICloudinaryService _cloudinaryService;
     private readonly IMapper _mapper;
+    private const string FOLDER_PATH= "h:\\root\\home\\gadimovsabir-001\\www\\site6\\wwwroot\\documents";
 
     public ProjectService(IProjectRepository repository, ICloudinaryService cloudinaryService, IMapper mapper)
     {
         _repository = repository;
         _cloudinaryService = cloudinaryService;
         _mapper = mapper;
+        //FOLDER_PATH = Path.Combine(Directory.GetCurrentDirectory(), "..", "Connex.Presentation", "wwwroot", "documents");
     }
 
     public async Task<bool> CreateAsync(ProjectCreateDto dto, ModelStateDictionary ModelState)
@@ -34,6 +36,18 @@ public class ProjectService : IProjectService
             ModelState.AddModelError("Image", "Yalnız şəkil formatında dəyər daxil edə bilərsiniz");
             return false;
         }
+
+        if (!dto.File?.ValidateSize(11) ?? false)
+        {
+            ModelState.AddModelError("File", "Faylın ölçüsü 11-mb dan artıq ola bilməz");
+            return false;
+        }
+        if (!dto.File?.ValidateType("pdf") ?? false)
+        {
+            ModelState.AddModelError("File", "Yalnız pdf formatında dəyər daxil edə bilərsiniz");
+            return false;
+        }
+
 
 
         foreach (var detail in dto.ProjectDetails)
@@ -61,6 +75,12 @@ public class ProjectService : IProjectService
 
         project.ImagePath = imagePath;
 
+        if (dto.File is { })
+        {
+            var pdfPath = await dto.File.FileCreateAsync(FOLDER_PATH);
+            project.FilePath = pdfPath;
+        }
+
         await _repository.CreateAsync(project);
         await _repository.SaveChangesAsync();
 
@@ -76,6 +96,11 @@ public class ProjectService : IProjectService
 
         _repository.Delete(project);
         await _repository.SaveChangesAsync();
+
+        await _cloudinaryService.FileDeleteAsync(project.ImagePath);
+
+        if (!string.IsNullOrEmpty(project.FilePath))
+            project.FilePath.DeleteFile(FOLDER_PATH);
     }
 
     public async Task<List<ProjectGetDto>> GetAllAsync(Languages language = Languages.Azerbaijan)
@@ -136,6 +161,18 @@ public class ProjectService : IProjectService
             return false;
         }
 
+        if (!dto.File?.ValidateSize(11) ?? false)
+        {
+            ModelState.AddModelError("File", "Faylın ölçüsü 11-mb dan artıq ola bilməz");
+            return false;
+        }
+        if (!dto.File?.ValidateType("pdf") ?? false)
+        {
+            ModelState.AddModelError("File", "Yalnız pdf formatında dəyər daxil edə bilərsiniz");
+            return false;
+        }
+
+
 
         foreach (var detail in dto.ProjectDetails)
         {
@@ -165,6 +202,17 @@ public class ProjectService : IProjectService
 
             existProject.ImagePath = newImagePath;
         }
+
+        if (dto.File is { })
+        {
+            string newPdfPath = await dto.File.FileCreateAsync(FOLDER_PATH);
+
+            if (!string.IsNullOrEmpty(existProject.FilePath))
+                existProject.FilePath.DeleteFile(FOLDER_PATH);
+
+            existProject.FilePath = newPdfPath;
+        }
+
 
         _repository.Update(existProject);
         await _repository.SaveChangesAsync();

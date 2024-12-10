@@ -21,7 +21,7 @@
 
                     <div class="form-group">
                         <label for="exampleInputUsername1">Azərbaycanca açıqlama</label>
-                        <textarea class="form-control" id="description0"  asp-for="@Model.ProjectDetails[0].Description" placeholder="Açıqlama daxil edin"></textarea>
+                        <textarea class="form-control" id="description0" asp-for="@Model.ProjectDetails[0].Description" placeholder="Açıqlama daxil edin"></textarea>
                         <span asp-validation-for="@Model.ProjectDetails[0].Description" class="text-danger"></span>
                     </div>
 
@@ -82,6 +82,13 @@
                 </div>
 
 
+                <div class="form-group">
+                    <label for="exampleInputUsername1">Sənəd seçin (əgər varsa)</label>
+                    <input class="form-control" asp-for="File">
+                    <span asp-validation-for="File" class="text-danger"></span>
+                </div>
+
+
 
                 <button type="submit" class="btn btn-primary mr-2">Yarat</button>
                 <a class="btn btn-light" asp-action="Index">Ləğv et</a>
@@ -94,7 +101,7 @@
 
 
 
-@section Scripts{
+@section Scripts {
 
     <script type="module">
         import {

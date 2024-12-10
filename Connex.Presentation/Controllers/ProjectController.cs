@@ -28,6 +28,19 @@ public class ProjectController : Controller
 
         return View(result);
     }
+
+
+    public IActionResult ShowPDF(string filename)
+    {
+        var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "documents", filename);
+
+        if (!System.IO.File.Exists(filePath))
+        {
+            return NotFound("PDF dosyası bulunamadı.");
+        }
+
+        return File(System.IO.File.ReadAllBytes(filePath), "application/pdf");
+    }
     private Languages _getLangueage(string? lang)
     {
         if (string.IsNullOrEmpty(lang))

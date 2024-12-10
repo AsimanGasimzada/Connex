@@ -183,32 +183,32 @@ public class SliderService : ISliderService
         return true;
     }
 
-        private void _checkLanguageId(ref Languages language)
+    private void _checkLanguageId(ref Languages language)
+    {
+        foreach (var l in Enum.GetNames(typeof(Languages)))
         {
-            foreach (var l in Enum.GetNames(typeof(Languages)))
-            {
-                if (language.ToString() == l)
-                    return;
-            }
-
-            language = Languages.Azerbaijan;
-        }
-        private bool _checkLanguageId(int id)
-        {
-            foreach (var l in Enum.GetValues(typeof(Languages)))
-            {
-                if (id == (int)l)
-                    return true;
-            }
-
-            return false;
+            if (language.ToString() == l)
+                return;
         }
 
-
-
-        private Func<IQueryable<Slider>, IIncludableQueryable<Slider, object>> _getIncludeFunc(Languages language)
+        language = Languages.Azerbaijan;
+    }
+    private bool _checkLanguageId(int id)
+    {
+        foreach (var l in Enum.GetValues(typeof(Languages)))
         {
-
-            return x => x.Include(x => x.SliderDetails.Where(x => x.LanguageId == (int)language)).ThenInclude(x => x.Language);
+            if (id == (int)l)
+                return true;
         }
+
+        return false;
+    }
+
+
+
+    private Func<IQueryable<Slider>, IIncludableQueryable<Slider, object>> _getIncludeFunc(Languages language)
+    {
+
+        return x => x.Include(x => x.SliderDetails.Where(x => x.LanguageId == (int)language)).ThenInclude(x => x.Language);
+    }
 }

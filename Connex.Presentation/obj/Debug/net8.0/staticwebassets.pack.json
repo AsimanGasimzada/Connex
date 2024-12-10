@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Connex.Presentation.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Connex.Presentation.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Connex.Presentation.2nuii94tn5.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\wwwroot\\assets\\css\\maps\\style.css.map",
@@ -761,12 +761,20 @@
       "PackagePath": "staticwebassets\\assets\\images\\logo-light.svg"
     },
     {
+      "Id": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\wwwroot\\assets\\images\\logo-mini.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-mini.png"
+    },
+    {
       "Id": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\wwwroot\\assets\\images\\logo-mini.svg",
       "PackagePath": "staticwebassets\\assets\\images\\logo-mini.svg"
     },
     {
       "Id": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\wwwroot\\assets\\images\\logo-white.svg",
       "PackagePath": "staticwebassets\\assets\\images\\logo-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
     },
     {
       "Id": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\wwwroot\\assets\\images\\logo.svg",
@@ -1715,6 +1723,10 @@
     {
       "Id": "C:\\Users\\Asiman\\source\\repos\\Connex\\Connex.Presentation\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Connex.Presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Connex.Presentation.Microsoft.AspNetCore.StaticWebAssets.props",

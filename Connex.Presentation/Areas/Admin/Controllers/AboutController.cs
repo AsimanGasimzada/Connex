@@ -3,8 +3,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Connex.Presentation.Areas.Admin.Controllers;
-[Area("Admin")]
 [Authorize(Roles ="Admin")]
+[Area("Admin")]
 public class AboutController : Controller
 {
     private readonly IAboutService _service;

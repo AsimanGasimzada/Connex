@@ -84,6 +84,18 @@
                 </div>
 
 
+                @if (!string.IsNullOrEmpty(Model.FilePath))
+                {
+                    <a href="@Url.Action("ShowPDF", "Project",new{filename=Model.FilePath})" target="_blank">PDF'ə bax</a>
+                }
+
+                <div class="form-group">
+                    <label for="exampleInputUsername1">Sənəd seçin (əgər varsa)</label>
+                    <input class="form-control" asp-for="File">
+                    <span asp-validation-for="File" class="text-danger"></span>
+                </div>
+
+
 
                 <button type="submit" class="btn btn-primary mr-2">Dəyişdir</button>
                 <a class="btn btn-light" asp-action="Index">Ləğv et</a>
@@ -97,6 +109,7 @@
 
 
 @section Scripts {
+
 
     <script type="module">
         import {

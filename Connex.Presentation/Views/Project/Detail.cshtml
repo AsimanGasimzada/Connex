@@ -23,7 +23,10 @@
                     <p>
                         @Html.Raw(Model.Description)
                     </p>
-
+                    @if (!string.IsNullOrEmpty(Model.FilePath))
+                    {
+                        <a href="@Url.Action("ShowPDF", "Project",new{filename=Model.FilePath})" target="_blank">PDF</a>
+                    }
 
                 </div>
             </div>

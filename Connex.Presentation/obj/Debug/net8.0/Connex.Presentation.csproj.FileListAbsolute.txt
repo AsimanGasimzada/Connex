@@ -88,7 +88,6 @@ C:\Users\Asiman\source\repos\Connex\Connex.Presentation\bin\Debug\net8.0\System.
 C:\Users\Asiman\source\repos\Connex\Connex.Presentation\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\Users\Asiman\source\repos\Connex\Connex.Presentation\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Asiman\source\repos\Connex\Connex.Presentation\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\Asiman\source\repos\Connex\Connex.Presentation\bin\Debug\net8.0\System.Formats.Asn1.dll
 C:\Users\Asiman\source\repos\Connex\Connex.Presentation\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Asiman\source\repos\Connex\Connex.Presentation\bin\Debug\net8.0\System.Memory.Data.dll
 C:\Users\Asiman\source\repos\Connex\Connex.Presentation\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
@@ -278,3 +277,6 @@ C:\Users\Asiman\source\repos\Connex\Connex.Presentation\obj\Debug\net8.0\refint\
 C:\Users\Asiman\source\repos\Connex\Connex.Presentation\obj\Debug\net8.0\Connex.Presentation.pdb
 C:\Users\Asiman\source\repos\Connex\Connex.Presentation\obj\Debug\net8.0\Connex.Presentation.genruntimeconfig.cache
 C:\Users\Asiman\source\repos\Connex\Connex.Presentation\obj\Debug\net8.0\ref\Connex.Presentation.dll
+C:\Users\Asiman\source\repos\Connex\Connex.Presentation\bin\Debug\net8.0\Connex.Presentation.staticwebassets.endpoints.json
+C:\Users\Asiman\source\repos\Connex\Connex.Presentation\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Asiman\source\repos\Connex\Connex.Presentation\obj\Debug\net8.0\staticwebassets\msbuild.Connex.Presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

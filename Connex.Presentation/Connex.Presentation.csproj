@@ -8,6 +8,11 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Content Remove="wwwroot\documents\ConfirmEmailBody.html" />
+	  <Content Remove="wwwroot\documents\SendEmailByUser.html" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -22,6 +27,11 @@
 	<ItemGroup>
 		<Folder Include="Areas\Admin\Data\" />
 		<Folder Include="Areas\Admin\Models\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="wwwroot\documents\ConfirmEmailBody.html" />
+	  <None Include="wwwroot\documents\SendEmailByUser.html" />
 	</ItemGroup>
 
 </Project>

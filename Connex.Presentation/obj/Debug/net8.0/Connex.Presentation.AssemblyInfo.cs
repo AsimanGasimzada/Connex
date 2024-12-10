@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Connex.Presentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd52bee0022d7baf114420641a1578db9be8fef4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+893ffd5799cc3373154bf36673db84d7523896c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Connex.Presentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Connex.Presentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

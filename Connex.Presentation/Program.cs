@@ -35,7 +35,7 @@ public class Program
 
         await app.InitDatabaseAsync();
 
-        //app.UseMiddleware<GlobalExceptionHandler>();
+        app.UseMiddleware<GlobalExceptionHandler>();
 
         app.UseHttpsRedirection();
         app.UseStaticFiles();

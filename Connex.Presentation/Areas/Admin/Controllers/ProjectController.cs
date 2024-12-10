@@ -63,4 +63,16 @@ public class ProjectController : Controller
 
         return RedirectToAction(nameof(Index));
     }
+
+    public IActionResult ShowPDF(string filename)
+    {
+        var filePath = Path.Combine("h:\\root\\home\\gadimovsabir-001\\www\\site6\\wwwroot\\documents", filename);
+
+        if (!System.IO.File.Exists(filePath))
+        {
+            return NotFound("PDF dosyası bulunamadı.");
+        }
+
+        return File(System.IO.File.ReadAllBytes(filePath), "application/pdf");
+    }
 }

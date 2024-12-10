@@ -26,7 +26,7 @@
         emailPlaceholder: "Sizin e-poçt ünvanınız",
         phonePlaceholder: "Telefon nömrəniz",
         subjectPlaceholder: "Mövzu",
-        messagePlacholder: "Mesaj",
+        messagePlaceholder: "Mesaj",
         formButtonText: "Mesajı göndər"
 
 
@@ -73,4 +73,4 @@ document.getElementById("email").setAttribute("placeholder", translation.emailPl
 document.getElementById("phone").setAttribute("placeholder", translation.phonePlaceholder);
 document.getElementById("subject").setAttribute("placeholder", translation.subjectPlaceholder);
 document.getElementById("message").setAttribute("placeholder", translation.messagePlaceholder);
-document.getElementById("formButtonText").innerText = translation.infoTextLocation;
+document.getElementById("formButtonText").innerText = translation.formButtonText;
